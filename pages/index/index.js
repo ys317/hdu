@@ -12,6 +12,11 @@ Page({
       { id: 3, title: '新一届迎新晚会精彩纷呈', date: '2024-03-05', cover: '/images/news3.jpg' }
     ]
   },
+  onShow() {
+    if (typeof this.getTabBar === 'function' && this.getTabBar()) {
+      this.getTabBar().setData({ selected: 0 });
+    }
+  },
   goToPage(e) {
     wx.switchTab({ url: e.currentTarget.dataset.url });
   },

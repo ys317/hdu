@@ -7,5 +7,10 @@ Page({
       { year: '2015', title: '省部共建', desc: '成为国防科工局与浙江省共建高校' },
       { year: '2022', title: '双一流', desc: '入选浙江省重点建设高校' }
     ]
+  },
+  onShow() {
+    if (typeof this.getTabBar === 'function' && this.getTabBar()) {
+      this.getTabBar().setData({ selected: 3 });
+    }
   }
 });

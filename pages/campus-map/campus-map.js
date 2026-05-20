@@ -10,6 +10,11 @@ Page({
       { id: 5, longitude: 120.355, latitude: 30.315, title: '青山湖', desc: '校园风景湖' }
     ]
   },
+  onShow() {
+    if (typeof this.getTabBar === 'function' && this.getTabBar()) {
+      this.getTabBar().setData({ selected: 2 });
+    }
+  },
   onMarkerTap(e) {
     const marker = this.data.markers.find(m => m.id === e.markerId);
     wx.showModal({ title: marker.title, content: marker.desc, showCancel: false });
