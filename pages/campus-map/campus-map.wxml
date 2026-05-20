@@ -1,4 +1,5 @@
-<view class="map-page">
+<view class="map-container">
+  <!-- 地图组件 -->
   <map 
     id="campusMap"
     longitude="{{longitude}}" 
@@ -6,18 +7,37 @@
     scale="16"
     markers="{{markers}}"
     bindmarkertap="onMarkerTap"
-    style="width: 100%; height: 600rpx;">
+    show-location
+    class="campus-map">
   </map>
 
-  <view class="location-list">
-    <view class="location-title">校园地标</view>
-    <view class="location-item" wx:for="{{markers}}" wx:key="id"
-          bindtap="moveToMarker" data-marker="{{item}}">
-      <view class="location-icon">📍</view>
-      <view class="location-info">
-        <text class="location-name">{{item.title}}</text>
-        <text class="location-desc">{{item.desc}}</text>
-      </view>
+  <!-- 地标分类切换 -->
+  <view class="map-tabs">
+    <view class="map-tab {{currentCategory===item.id?'active':''}}" 
+          wx:for="{{categories}}" wx:key="id"
+          bindtap="switchCategory" data-id="{{item.id}}">
+      {{item.name}}
     </view>
   </view>
+
+  <!-- 地标卡片列表 -->
+  <scroll-view scroll-y class="location-list">
+    <view class="location-card" wx:for="{{filteredLocations}}" wx:key="id"
+          bindtap="moveToMarker" data-marker="{{item}}">
+      <view class="card-left">
+        <image src="/images/marker.png" class="loc-pin-icon"/>
+        <view class="loc-info">
+          <text class="loc-name">{{item.title}}</text>
+          <text class="loc-desc">{{item.desc}}</text>
+        </view>
+      </view>
+      <view class="card-right">
+        <view class="focus-btn">
+          <text>导航</text>
+        </view>
+      </view>
+    </view>
+    <!-- 空白底部占位，避免被自定义Tabbar挡住 -->
+    <view class="bottom-placeholder"></view>
+  </scroll-view>
 </view>

@@ -24,8 +24,13 @@
   background: #fff;
   margin: 20rpx;
   padding: 30rpx;
-  border-radius: 16rpx;
-  box-shadow: 0 2rpx 12rpx rgba(0,0,0,0.05);
+  border-radius: 20rpx;
+  box-shadow: 0 8rpx 24rpx rgba(30, 58, 138, 0.04);
+  transition: all 0.3s ease;
+}
+.card:active {
+  transform: translateY(2rpx);
+  box-shadow: 0 4rpx 12rpx rgba(30, 58, 138, 0.02);
 }
 
 .card-title {
@@ -35,18 +40,19 @@
   font-weight: bold;
   margin-bottom: 20rpx;
   color: #1e3a8a;
+  letter-spacing: 1rpx;
 }
 .title-bar {
   width: 8rpx;
   height: 32rpx;
-  background: #1e3a8a;
+  background: linear-gradient(180deg, #1e3a8a, #3b82f6);
   margin-right: 16rpx;
   border-radius: 4rpx;
 }
 
 .intro-text {
   font-size: 28rpx;
-  color: #555;
+  color: #4b5563;
   line-height: 1.6;
   display: block;
 }
@@ -57,11 +63,12 @@
 .tag {
   display: inline-block;
   padding: 6rpx 20rpx;
-  background: #e0e7ff;
+  background: #eff6ff;
   color: #1e3a8a;
   border-radius: 20rpx;
   font-size: 24rpx;
   margin-right: 16rpx;
+  font-weight: 500;
 }
 
 .nav-grid {
@@ -69,47 +76,65 @@
   flex-wrap: wrap;
   background: #fff;
   margin: 20rpx;
-  border-radius: 16rpx;
+  border-radius: 20rpx;
   padding: 30rpx 0;
+  box-shadow: 0 8rpx 24rpx rgba(30, 58, 138, 0.04);
 }
 .nav-item {
   width: 25%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.nav-item:active {
+  transform: scale(0.9);
+  opacity: 0.85;
 }
 .nav-item image {
-  width: 80rpx;
-  height: 80rpx;
-  margin-bottom: 10rpx;
+  width: 90rpx;
+  height: 90rpx;
+  margin-bottom: 12rpx;
+  filter: drop-shadow(0 4rpx 8rpx rgba(0,0,0,0.06));
 }
 .nav-item text {
   font-size: 24rpx;
-  color: #333;
+  color: #1f2937;
+  font-weight: 500;
 }
 
 .news-item {
   display: flex;
-  padding: 20rpx 0;
-  border-bottom: 1rpx solid #eee;
+  padding: 24rpx 10rpx;
+  border-bottom: 1rpx solid #f3f4f6;
+  transition: all 0.2s ease;
+  border-radius: 12rpx;
+}
+.news-item:active {
+  background-color: #f3f4f6;
+  transform: translateX(4rpx);
 }
 .news-img {
   width: 180rpx;
   height: 120rpx;
-  border-radius: 8rpx;
-  margin-right: 20rpx;
+  border-radius: 12rpx;
+  margin-right: 24rpx;
+  box-shadow: 0 4rpx 12rpx rgba(0, 0, 0, 0.05);
 }
 .news-info {
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding: 2rpx 0;
 }
 .news-title {
   font-size: 28rpx;
-  color: #333;
+  color: #1f2937;
+  font-weight: 500;
+  line-height: 1.4;
 }
 .news-date {
   font-size: 24rpx;
-  color: #999;
+  color: #9ca3af;
 }

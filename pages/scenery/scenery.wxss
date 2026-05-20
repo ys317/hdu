@@ -1,1 +1,76 @@
-/* pages/scenery/scenery.wxss */
+.scenery-container {
+  min-height: 100vh;
+  background-color: #f5f7fa;
+  padding-bottom: 120rpx; /* Leave space for custom tab bar */
+}
+
+/* 分类Tab栏样式 */
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  background-color: #ffffff;
+  padding: 24rpx 16rpx;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 4rpx 16rpx rgba(0, 0, 0, 0.03);
+}
+
+.tab {
+  font-size: 28rpx;
+  color: #6b7280;
+  padding: 12rpx 32rpx;
+  border-radius: 30rpx;
+  font-weight: 500;
+  transition: all 0.25s ease;
+  background-color: #f3f4f6;
+}
+
+.tab.active {
+  color: #ffffff;
+  background-color: #1e3a8a;
+  box-shadow: 0 6rpx 16rpx rgba(30, 58, 138, 0.25);
+  transform: scale(1.05);
+}
+
+/* 照片网格布局 */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24rpx;
+  padding: 28rpx;
+  box-sizing: border-box;
+}
+
+/* 照片卡片样式 */
+.photo-item {
+  background-color: #ffffff;
+  border-radius: 20rpx;
+  overflow: hidden;
+  box-shadow: 0 8rpx 24rpx rgba(30, 58, 138, 0.03);
+  transition: all 0.2s ease;
+}
+
+.photo-item:active {
+  transform: scale(0.96);
+  box-shadow: 0 4rpx 12rpx rgba(30, 58, 138, 0.01);
+}
+
+.photo-item image {
+  width: 100%;
+  height: 300rpx;
+  display: block;
+}
+
+.photo-desc {
+  padding: 20rpx 16rpx;
+  font-size: 26rpx;
+  color: #1f2937;
+  font-weight: 600;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border-top: 1rpx solid #f3f4f6;
+  letter-spacing: 0.5rpx;
+}

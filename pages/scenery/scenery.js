@@ -8,12 +8,12 @@ Page({
       { id: 3, name: '生活' }
     ],
     photos: [
-      { id: 1, url: '/images/p1.jpg', desc: '图书馆', type: 1 },
-      { id: 2, url: '/images/p2.jpg', desc: '行政楼', type: 1 },
-      { id: 3, url: '/images/p3.jpg', desc: '樱花大道', type: 2 },
-      { id: 4, url: '/images/p4.jpg', desc: '青山湖', type: 2 },
-      { id: 5, url: '/images/p5.jpg', desc: '学生公寓', type: 3 },
-      { id: 6, url: '/images/p6.jpg', desc: '食堂', type: 3 }
+      { id: 1, url: '/images/p1.jpg', desc: '图书馆阅览室', type: 1 },
+      { id: 2, url: '/images/p2.jpg', desc: '行政大楼', type: 1 },
+      { id: 3, url: '/images/p3.jpg', desc: '1教 · 倍仁楼', type: 1 },
+      { id: 4, url: '/images/p4.jpg', desc: '月雅湖景区', type: 2 },
+      { id: 5, url: '/images/p5.jpg', desc: '生活区宿舍楼', type: 3 },
+      { id: 6, url: '/images/p6.jpg', desc: '生活区美食城', type: 3 }
     ],
     filteredPhotos: []
   },

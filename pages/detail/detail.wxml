@@ -1,2 +1,28 @@
-<!--pages/detail/detail.wxml-->
-<text>pages/detail/detail.wxml</text>
+<view class="detail-container">
+  <!-- 封面图 -->
+  <image wx:if="{{cover}}" src="{{cover}}" mode="aspectFill" class="cover-image"></image>
+
+  <!-- 文章内容主体 -->
+  <view class="article-body">
+    <view class="title">{{title}}</view>
+    
+    <!-- 作者和时间 -->
+    <view class="meta-info" wx:if="{{date || author}}">
+      <text class="author" wx:if="{{author}}">编辑：{{author}}</text>
+      <text class="divider" wx:if="{{author && date}}">|</text>
+      <text class="date" wx:if="{{date}}">时间：{{date}}</text>
+    </view>
+
+    <!-- 文章段落 -->
+    <view class="content-paragraphs">
+      <view class="paragraph" wx:for="{{content}}" wx:key="index">
+        <text class="para-text">{{item}}</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 底部返回按钮 -->
+  <view class="footer-btn">
+    <button class="back-btn" bindtap="navigateBack">返回上一页</button>
+  </view>
+</view>

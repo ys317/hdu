@@ -1,1 +1,127 @@
-/* pages/campus-map/campus-map.wxss */
+.map-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #f5f7fa;
+}
+
+/* 地图尺寸和阴影 */
+.campus-map {
+  width: 100%;
+  height: 52vh;
+  box-shadow: 0 6rpx 24rpx rgba(0, 0, 0, 0.08);
+  z-index: 1;
+}
+
+/* 地标分类标签栏 */
+.map-tabs {
+  display: flex;
+  justify-content: space-around;
+  background-color: #ffffff;
+  padding: 20rpx 10rpx;
+  box-shadow: 0 4rpx 16rpx rgba(0, 0, 0, 0.02);
+  z-index: 10;
+  border-bottom: 1rpx solid #f3f4f6;
+}
+
+.map-tab {
+  font-size: 26rpx;
+  color: #6b7280;
+  padding: 10rpx 26rpx;
+  border-radius: 30rpx;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  background-color: #f3f4f6;
+}
+
+.map-tab.active {
+  color: #ffffff;
+  background-color: #1e3a8a;
+  font-weight: bold;
+  box-shadow: 0 4rpx 12rpx rgba(30, 58, 138, 0.2);
+  transform: scale(1.03);
+}
+
+/* 滚动列表 */
+.location-list {
+  flex: 1;
+  background-color: #f5f7fa;
+  padding: 16rpx 24rpx;
+  box-sizing: border-box;
+}
+
+/* 地点卡片 */
+.location-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 20rpx;
+  padding: 24rpx 20rpx;
+  margin-bottom: 16rpx;
+  box-shadow: 0 6rpx 18rpx rgba(30, 58, 138, 0.02);
+  transition: all 0.2s ease;
+  border: 1rpx solid #f9fafb;
+}
+
+.location-card:active {
+  transform: scale(0.97);
+  background-color: #f9fafb;
+}
+
+.card-left {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  overflow: hidden;
+}
+
+.loc-pin-icon {
+  width: 52rpx;
+  height: 52rpx;
+  margin-right: 20rpx;
+  flex-shrink: 0;
+}
+
+.loc-info {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  overflow: hidden;
+}
+
+.loc-name {
+  font-size: 28rpx;
+  font-weight: bold;
+  color: #1e3a8a;
+  margin-bottom: 6rpx;
+  letter-spacing: 0.5rpx;
+}
+
+.loc-desc {
+  font-size: 22rpx;
+  color: #6b7280;
+  line-height: 1.4;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-right {
+  margin-left: 20rpx;
+}
+
+.focus-btn {
+  background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+  color: #ffffff;
+  font-size: 24rpx;
+  font-weight: bold;
+  padding: 10rpx 26rpx;
+  border-radius: 30rpx;
+  box-shadow: 0 4rpx 10rpx rgba(30, 58, 138, 0.15);
+}
+
+/* 避开自定义 tab bar */
+.bottom-placeholder {
+  height: 160rpx;
+}
