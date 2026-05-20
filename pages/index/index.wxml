@@ -1,0 +1,63 @@
+<view class="container">
+  <!-- 顶部轮播 -->
+  <swiper class="banner" indicator-dots autoplay interval="3000" circular>
+    <swiper-item wx:for="{{banners}}" wx:key="id">
+      <image src="{{item.url}}" mode="aspectFill" class="banner-img"/>
+      <view class="banner-title">{{item.title}}</view>
+    </swiper-item>
+  </swiper>
+
+  <!-- 学校简介 -->
+  <view class="card intro-card">
+    <view class="card-title">
+      <text class="title-bar"></text>
+      杭州电子科技大学
+    </view>
+    <text class="intro-text">
+      杭州电子科技大学(HDU)是一所电子信息特色突出,经管学科优势明显,工、理、经、管、文、法、艺等多学科相互渗透的教学研究型大学。
+    </text>
+    <view class="tags">
+      <text class="tag">双一流</text>
+      <text class="tag">省重点</text>
+      <text class="tag">电子信息</text>
+    </view>
+  </view>
+
+  <!-- 功能导航 -->
+  <view class="nav-grid">
+    <view class="nav-item" bindtap="goToPage" data-url="/pages/scenery/scenery">
+      <image src="/images/icon-scenery.png"/>
+      <text>校园风光</text>
+    </view>
+    <view class="nav-item" bindtap="goToPage" data-url="/pages/campus-map/campus-map">
+      <image src="/images/icon-map.png"/>
+      <text>校园地图</text>
+    </view>
+    <view class="nav-item" bindtap="goToPage" data-url="/pages/history/history">
+      <image src="/images/icon-history.png"/>
+      <text>校史文化</text>
+    </view>
+    <view class="nav-item" bindtap="goToPage" data-url="/pages/detail/detail?type=academic">
+      <image src="/images/icon-academic.png"/>
+      <text>学术成就</text>
+    </view>
+  </view>
+
+  <!-- 校园动态 -->
+  <view class="card">
+    <view class="card-title">
+      <text class="title-bar"></text>
+      校园动态
+    </view>
+    <view class="news-list">
+      <view class="news-item" wx:for="{{news}}" wx:key="id" 
+            bindtap="goToDetail" data-id="{{item.id}}">
+        <image src="{{item.cover}}" class="news-img"/>
+        <view class="news-info">
+          <text class="news-title">{{item.title}}</text>
+          <text class="news-date">{{item.date}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

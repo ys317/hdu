@@ -1,0 +1,23 @@
+<view class="map-page">
+  <map 
+    id="campusMap"
+    longitude="{{longitude}}" 
+    latitude="{{latitude}}"
+    scale="16"
+    markers="{{markers}}"
+    bindmarkertap="onMarkerTap"
+    style="width: 100%; height: 600rpx;">
+  </map>
+
+  <view class="location-list">
+    <view class="location-title">校园地标</view>
+    <view class="location-item" wx:for="{{markers}}" wx:key="id"
+          bindtap="moveToMarker" data-marker="{{item}}">
+      <view class="location-icon">📍</view>
+      <view class="location-info">
+        <text class="location-name">{{item.title}}</text>
+        <text class="location-desc">{{item.desc}}</text>
+      </view>
+    </view>
+  </view>
+</view>
