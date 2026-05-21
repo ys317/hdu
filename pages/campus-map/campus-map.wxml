@@ -23,7 +23,7 @@
     <view class="map-tips tech-panel tech-rise" style="animation-delay: 220ms;">
       <view class="tip-item">
         <text class="tip-dot"></text>
-        <text class="tip-text">平面图已自动加载，点击上方地图可全屏缩放查看细节</text>
+        <text class="tip-text">平面图已加载，点击上方地图可全屏缩放查看细节</text>
       </view>
       <view class="tip-item">
         <text class="tip-dot"></text>
