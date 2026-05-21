@@ -1,53 +1,103 @@
 <view class="map-container tech-shell">
   <view class="tech-grid-overlay"></view>
 
+  <!-- Top Page Header -->
   <view class="map-header tech-rise">
-    <view class="map-kicker tech-chip">STATIC CAMPUS MAP</view>
-    <text class="page-title">杭电校园地图</text>
-    <text class="page-subtitle">校园平面导览图已作为本地静态资源加载，点击地图可全屏查看</text>
+    <view class="map-kicker tech-chip">HDU CAMPUS NAVIGATION</view>
+    <text class="page-title">校园导览与地图</text>
   </view>
 
-  <view class="map-frame tech-panel tech-rise" style="animation-delay: 120ms;" bindtap="previewMap">
-    <view class="map-frame-scan tech-sweep"></view>
-    <image class="static-map" src="{{mapImage}}" mode="widthFix" />
+  <!-- Segmented Switch Tab -->
+  <view class="segment-tabs tech-panel tech-rise" style="animation-delay: 80ms;">
+    <view class="segment-tab {{currentTab === 0 ? 'active' : ''}}" bindtap="switchViewTab" data-tab="0">平面导览</view>
+    <view class="segment-tab {{currentTab === 1 ? 'active' : ''}}" bindtap="switchViewTab" data-tab="1">电子地图</view>
   </view>
 
-  <view class="map-tips tech-panel tech-rise" style="animation-delay: 220ms;">
-    <view class="tip-item">
-      <text class="tip-dot"></text>
-      <text class="tip-text">地图已随小程序页面自动加载，无需等待定位服务</text>
-    </view>
-    <view class="tip-item">
-      <text class="tip-dot"></text>
-      <text class="tip-text">点击地图后可双指缩放查看细节</text>
-    </view>
-  </view>
-
-  <view class="nav-section tech-rise" style="animation-delay: 300ms;">
-    <view class="nav-section-title">
-      <text class="section-title">地图导航</text>
-      <text class="section-subtitle">点击建筑按钮，打开目标地点</text>
+  <!-- Tab 0: Plane Map View (Static Map Image) -->
+  <block wx:if="{{currentTab === 0}}">
+    <view class="map-frame tech-panel tech-rise" style="animation-delay: 120ms;" bindtap="previewMap">
+      <view class="map-frame-scan tech-sweep"></view>
+      <image class="static-map" src="{{mapImage}}" mode="widthFix" />
     </view>
 
-    <view class="nav-grid">
-      <button
-        wx:for="{{navTargets}}"
-        wx:for-item="item"
-        wx:for-index="index"
-        wx:key="id"
-        class="nav-btn tech-rise"
-        plain="true"
-        style="animation-delay: {{index * 70}}ms;"
-        bindtap="goToBaiduNavigation"
-        data-name="{{item.name}}"
-        data-nav-name="{{item.navName}}"
-        data-desc="{{item.desc}}"
-        data-lat="{{item.lat}}"
-        data-lng="{{item.lng}}"
-      >
-        <view class="nav-btn-name">{{item.name}}</view>
-        <view class="nav-btn-desc">{{item.desc}}</view>
-      </button>
+    <view class="map-tips tech-panel tech-rise" style="animation-delay: 220ms;">
+      <view class="tip-item">
+        <text class="tip-dot"></text>
+        <text class="tip-text">平面图已自动加载，点击上方地图可全屏缩放查看细节</text>
+      </view>
+      <view class="tip-item">
+        <text class="tip-dot"></text>
+        <text class="tip-text">切换至电子地图视图，可浏览校园地标并查看详细图文介绍</text>
+      </view>
     </view>
-  </view>
+
+
+  </block>
+
+  <!-- Tab 1: Live Interactive Map View -->
+  <block wx:if="{{currentTab === 1}}">
+    <view class="interactive-map-wrapper tech-panel tech-rise" style="animation-delay: 120ms;">
+      
+      <!-- Search Input -->
+      <view class="search-bar">
+        <icon class="search-icon" type="search" size="16" color="#0c8cff"></icon>
+        <input class="search-input" placeholder="输入名称搜索地标..." value="{{searchQuery}}" bindinput="onSearchInput" placeholder-style="color: #72829a;" />
+        <icon class="clear-icon" wx:if="{{searchQuery}}" type="clear" size="16" color="#72829a" bindtap="onClearSearch"></icon>
+      </view>
+
+      <!-- Category Badges Scrollable -->
+      <scroll-view class="category-scroll" scroll-x="true" enable-flex="true">
+        <view
+          wx:for="{{categories}}"
+          wx:key="id"
+          class="category-badge {{selectedCategory === item.id ? 'active' : ''}}"
+          bindtap="onCategorySelect"
+          data-id="{{item.id}}"
+        >
+          {{item.name}}
+        </view>
+      </scroll-view>
+
+      <!-- Native Map Container -->
+      <view class="map-box">
+        <map
+          id="campusMap"
+          latitude="{{mapCenter.lat}}"
+          longitude="{{mapCenter.lng}}"
+          scale="{{mapScale}}"
+          markers="{{filteredMarkers}}"
+          show-location="true"
+          bindmarkertap="onMarkerTap"
+          class="native-map"
+        >
+          <!-- Floating Locator Button -->
+          <cover-view class="locate-btn" bindtap="moveToUserLocation">
+            <cover-image class="locate-icon" src="/images/marker.png" />
+          </cover-view>
+        </map>
+      </view>
+
+      <!-- Sliding Details Drawer Card -->
+      <view class="detail-drawer {{selectedLandmark ? 'show' : ''}}" wx:if="{{selectedLandmark}}">
+        <view class="drawer-header">
+          <view class="drawer-title-box">
+            <text class="drawer-title">{{selectedLandmark.name}}</text>
+            <text class="drawer-tag">{{selectedLandmark.categoryName}}</text>
+          </view>
+          <view class="drawer-close-btn" bindtap="closeDrawer">×</view>
+        </view>
+        
+        <view class="drawer-body">
+          <text class="drawer-desc">{{selectedLandmark.desc}}</text>
+          <view class="drawer-distance-box" wx:if="{{selectedLandmark.distanceText}}">
+            <view class="distance-pulse tech-pulse"></view>
+            <text class="distance-label">距您当前位置：</text>
+            <text class="distance-value">{{selectedLandmark.distanceText}}</text>
+          </view>
+        </view>
+
+
+      </view>
+    </view>
+  </block>
 </view>

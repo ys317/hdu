@@ -9,7 +9,6 @@
     bindtap="switchTab"
   >
     <view class="icon-shell">
-      <view class="icon-ping"></view>
       <image class="icon" src="{{selected === index ? item.iconActive : item.icon}}"></image>
     </view>
     <view class="text {{selected === index ? 'active' : ''}}">{{item.text}}</view>

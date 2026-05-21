@@ -25,11 +25,11 @@ Page({
       { id: 9, url: '/images/scenery/dormitory-01.jpg', desc: '生活区宿舍楼 · 组团立面', type: 3, building: '' },
       { id: 10, url: '/images/scenery/dormitory-02.jpg', desc: '生活区宿舍楼 · 生活配套', type: 3, building: '' },
       { id: 11, url: '/images/scenery/dormitory-03.jpg', desc: '生活区宿舍楼 · 居住空间', type: 3, building: '' },
-      { id: 12, url: '/images/scenery/food-court-01.jpg', desc: '生活区美食城 · 用餐空间', type: 3, building: '' },
-      { id: 13, url: '/images/scenery/food-court-02.jpg', desc: '生活区美食城 · 餐饮街区', type: 3, building: '' },
-      { id: 14, url: '/images/scenery/food-court-03.jpg', desc: '生活区美食城 · 日常补给', type: 3, building: '' },
-      { id: 15, url: '/images/scenery/food-court-04.jpg', desc: '生活区美食城 · 就餐休憩区域', type: 3, building: '' },
-      { id: 16, url: '/images/scenery/food-court-05.jpg', desc: '生活区美食城 · 晚间氛围', type: 3, building: '' }
+      { id: 12, url: '/images/scenery/food-court-01.jpg', desc: '三餐厅 · 用餐空间', type: 3, building: '' },
+      { id: 13, url: '/images/scenery/food-court-02.jpg', desc: '三餐厅 · 餐饮街区', type: 3, building: '' },
+      { id: 14, url: '/images/scenery/food-court-03.jpg', desc: '三餐厅 · 日常补给', type: 3, building: '' },
+      { id: 15, url: '/images/scenery/food-court-04.jpg', desc: '三餐厅 · 就餐休憩区域', type: 3, building: '' },
+      { id: 16, url: '/images/scenery/food-court-05.jpg', desc: '三餐厅 · 晚间氛围', type: 3, building: '' }
     ],
     filteredPhotos: []
   },

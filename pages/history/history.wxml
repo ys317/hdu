@@ -6,7 +6,6 @@
     <view class="header-grid"></view>
     <view class="header-scan tech-sweep"></view>
     <view class="header-text">
-      <view class="header-badge">ARCHIVE / 1956 - NOW</view>
       <text class="big-title">校史沿革</text>
       <text class="sub-title">Since 1956 · Campus memory timeline</text>
     </view>

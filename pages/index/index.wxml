@@ -4,11 +4,9 @@
   <swiper class="banner" indicator-dots autoplay interval="3000" circular>
     <swiper-item wx:for="{{banners}}" wx:key="id">
       <image src="{{item.url}}" mode="aspectFill" class="banner-img"/>
-      <view class="banner-overlay"></view>
       <view class="banner-grid"></view>
       <view class="banner-scan tech-sweep"></view>
       <view class="banner-copy">
-        <view class="banner-chip">HDU CYBER CAMPUS</view>
         <text class="banner-title">{{item.title}}</text>
         <text class="banner-subtitle">电子信息特色鲜明 · 数字校园导览系统</text>
       </view>
@@ -26,7 +24,7 @@
       杭州电子科技大学(HDU)是一所电子信息特色突出,经管学科优势明显,工、理、经、管、文、法、艺等多学科相互渗透的教学研究型大学。
     </text>
     <view class="tags">
-      <text class="tag">双一流</text>
+      <text class="tag">部省共建</text>
       <text class="tag">省重点</text>
       <text class="tag">电子信息</text>
     </view>
