@@ -1,14 +1,23 @@
-<view class="container">
+<view class="container tech-shell">
+  <view class="tech-grid-overlay"></view>
   <!-- 顶部轮播 -->
   <swiper class="banner" indicator-dots autoplay interval="3000" circular>
     <swiper-item wx:for="{{banners}}" wx:key="id">
       <image src="{{item.url}}" mode="aspectFill" class="banner-img"/>
-      <view class="banner-title">{{item.title}}</view>
+      <view class="banner-overlay"></view>
+      <view class="banner-grid"></view>
+      <view class="banner-scan tech-sweep"></view>
+      <view class="banner-copy">
+        <view class="banner-chip">HDU CYBER CAMPUS</view>
+        <text class="banner-title">{{item.title}}</text>
+        <text class="banner-subtitle">电子信息特色鲜明 · 数字校园导览系统</text>
+      </view>
     </swiper-item>
   </swiper>
 
   <!-- 学校简介 -->
-  <view class="card intro-card">
+  <view class="card intro-card tech-panel tech-rise" style="animation-delay: 80ms;">
+    <view class="panel-accent tech-accent"></view>
     <view class="card-title">
       <text class="title-bar"></text>
       杭州电子科技大学
@@ -24,34 +33,35 @@
   </view>
 
   <!-- 功能导航 -->
-  <view class="nav-grid">
-    <view class="nav-item" bindtap="goToPage" data-url="/pages/scenery/scenery">
+  <view class="nav-grid tech-panel">
+    <view class="nav-item tech-rise" bindtap="goToPage" data-url="/pages/scenery/scenery" style="animation-delay: 140ms;">
       <image src="/images/icon-scenery.png"/>
       <text>校园风光</text>
     </view>
-    <view class="nav-item" bindtap="goToPage" data-url="/pages/campus-map/campus-map">
+    <view class="nav-item tech-rise" bindtap="goToPage" data-url="/pages/campus-map/campus-map" style="animation-delay: 220ms;">
       <image src="/images/icon-map.png"/>
       <text>校园地图</text>
     </view>
-    <view class="nav-item" bindtap="goToPage" data-url="/pages/history/history">
+    <view class="nav-item tech-rise" bindtap="goToPage" data-url="/pages/history/history" style="animation-delay: 300ms;">
       <image src="/images/icon-history.png"/>
       <text>校史文化</text>
     </view>
-    <view class="nav-item" bindtap="goToPage" data-url="/pages/detail/detail?type=academic">
+    <view class="nav-item tech-rise" bindtap="goToPage" data-url="/pages/detail/detail?type=academic" style="animation-delay: 380ms;">
       <image src="/images/icon-academic.png"/>
       <text>学术成就</text>
     </view>
   </view>
 
   <!-- 校园动态 -->
-  <view class="card">
+  <view class="card news-card tech-panel tech-rise" style="animation-delay: 220ms;">
+    <view class="panel-accent tech-accent"></view>
     <view class="card-title">
       <text class="title-bar"></text>
       校园动态
     </view>
     <view class="news-list">
-      <view class="news-item" wx:for="{{news}}" wx:key="id" 
-            bindtap="goToDetail" data-id="{{item.id}}">
+      <view class="news-item tech-rise" wx:for="{{news}}" wx:for-index="index" wx:key="id"
+            bindtap="goToDetail" data-id="{{item.id}}" style="animation-delay: {{index * 80 + 300}}ms;">
         <image src="{{item.cover}}" class="news-img"/>
         <view class="news-info">
           <text class="news-title">{{item.title}}</text>

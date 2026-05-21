@@ -1,0 +1,100 @@
+- generic [ref=e2]:
+  - heading "杭电首页" [level=6] [ref=e4] [cursor=pointer]:
+    - link "杭电首页" [ref=e5]:
+      - /url: https://www.hdu.edu.cn/
+  - generic [ref=e6]:
+    - generic [ref=e7]:
+      - link "返回新闻网首页" [ref=e9] [cursor=pointer]:
+        - /url: /news/main.htm
+        - img [ref=e10]
+      - generic [ref=e12]:
+        - paragraph [ref=e13]: 2026年05月
+        - heading "20" [level=1] [ref=e14]
+        - paragraph [ref=e15]: 星期三
+        - paragraph
+    - generic [ref=e16]:
+      - list [ref=e17]:
+        - listitem [ref=e18] [cursor=pointer]:
+          - link "新闻网" [ref=e19]:
+            - /url: http://www.hdu.edu.cn/news/main.htm
+        - listitem [ref=e20] [cursor=pointer]:
+          - link "要闻聚焦" [ref=e21]:
+            - /url: /news/hdxw/list.htm
+        - listitem [ref=e22] [cursor=pointer]:
+          - link "在线投稿" [ref=e23]:
+            - /url: http://zhanqun.hdu.edu.cn/_web/_plugs/_artContribute/web/contributeArtFrame.jsp?type=1&siteFolderId=30091&_p=YXM9MjcmdD00NTUmcD0xJm09TiY_
+        - listitem [ref=e24] [cursor=pointer]:
+          - link "在线审核" [ref=e25]:
+            - /url: http://zhanqun.hdu.edu.cn
+      - img "search" [ref=e27] [cursor=pointer]
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - generic [ref=e30]:
+          - generic [ref=e31]:
+            - heading "第04版：专版" [level=1] [ref=e32]
+            - heading [level=2] [ref=e33]
+          - generic [ref=e35]:
+            - generic [ref=e37] [cursor=pointer]: "2025"
+            - generic [ref=e39]:
+              - generic [ref=e40] [cursor=pointer]: "1"
+              - generic [ref=e41] [cursor=pointer]: "2"
+              - generic [ref=e42] [cursor=pointer]: "3"
+              - generic [ref=e43] [cursor=pointer]: "4"
+              - generic [ref=e44] [cursor=pointer]: "5"
+              - generic [ref=e45] [cursor=pointer]: "6"
+              - generic [ref=e46] [cursor=pointer]: "7"
+              - generic [ref=e47] [cursor=pointer]: "8"
+              - generic [ref=e48] [cursor=pointer]: "9"
+              - generic [ref=e49] [cursor=pointer]: "10"
+              - generic [ref=e50] [cursor=pointer]: "11"
+              - generic [ref=e51] [cursor=pointer]: "12"
+          - list [ref=e52]
+          - list [ref=e55]:
+            - listitem [ref=e56] [cursor=pointer]: "1"
+            - listitem [ref=e57] [cursor=pointer]: "2"
+            - listitem [ref=e58] [cursor=pointer]: "3"
+            - listitem [ref=e59] [cursor=pointer]: "4"
+            - listitem [ref=e60] [cursor=pointer]: "5"
+            - listitem [ref=e61] [cursor=pointer]: 下页
+        - generic [ref=e62]:
+          - generic [ref=e63]:
+            - img [ref=e64]
+            - paragraph [ref=e65]:
+              - link "杭州电子科技大学官方微信" [ref=e66] [cursor=pointer]:
+                - /url: /news/2022/0916/c7529a157839/page.htm
+          - generic [ref=e67]:
+            - img [ref=e68]
+            - paragraph [ref=e69]:
+              - link "杭州电子科技大学官方微博" [ref=e70] [cursor=pointer]:
+                - /url: /news/2022/0916/c7529a157821/page.htm
+      - generic [ref=e71]:
+        - generic [ref=e72]: 杭电十景（下沙校区）新鲜出炉！
+        - generic [ref=e73]: 作者： 来源：新闻网 时间：2015-04-20
+        - generic [ref=e77]:
+          - paragraph [ref=e78]: 2014年10月，借着参加全省高校文化校园建设试点单位评选活动的契机，学校启动“杭电十景”选址征名活动，经过初步酝酿、师生推荐、广泛征集、多轮研讨、专家评审等环节，初步评选出12个候选景点，并在官方微信及校报上面向公众展示，由师生校友共同投票评选。同时邀请古诗文专家、“西湖十景”专家组成员王翼奇老先生，对活动进行权威论证。根据票选情况和专家润笔审定，最终评选出下沙校区的“杭电十景”。10个景点各擅其胜，分布于教学区和生活区各隅，春夏秋冬四季风光水乳交融，秉承了“博学之，审问之，慎思之，明辨之，笃行之”的理念。在此向大家一一呈现。
+          - paragraph [ref=e79]: 一、长虹揽月，位于杭州电子科技大学正门，是学校标志性建筑，有亚洲首个最宽校门之称。高近30米，上书“杭州电子科技大学”几个大字，宽75米，如一道长虹擎起优美的弧线，将其侧月雅湖揽入怀中。学校前身为创建于1956年的杭州航空工业财经学校，“敢上九天揽月”的精神一直激励着杭电人坚守信念、脚踏实地，朝着梦想前进。万千师生由此而入，开启征程，走向未来。
+          - paragraph [ref=e80]
+          - paragraph [ref=e81]: 二、巨碟邀星，位于学校体育馆，是杭州市第二大体育馆。体育馆坚若磐石、恢弘大气，又因外型酷似飞碟，被学子们戏称为杭电“UFO”。这里不仅是学校各大体育赛事的承办地，更是开学典礼、毕业典礼、各大晚会及学科竞赛总决赛的见证地。作为曾经的万马篮球队的主场，这里还承办过第八届全国残疾人运动会轮椅篮球赛，《奔跑吧兄弟》第二季拍摄也在此进行。名人集聚，星光璀璨，熠熠生辉。该景点倡导学子“笃行之”。
+          - paragraph [ref=e82]
+          - paragraph [ref=e83]: 三、雅湖云影，位于学校东南角。月雅湖如一枚碧玉镶嵌于校门之旁，又似一位佳人依偎于大草坪之畔。周围有一雅廊点缀，一弯露台探入湖中，远观似在水一方。景名语出朱熹《观书有感》“半亩方塘一鉴开，天光云影共徘徊。问渠哪得清如许？为有源头活水来” ，以此鼓励学子心灵澄明，以开明宽阔的胸襟，接受鲜活的知识和思想。该景点倡导学子“明辨之”。
+          - paragraph [ref=e84]
+          - paragraph [ref=e85]: 四、书海风荷，位于校图书馆及其前方荷园，是校园十景中的盛夏之景。图书馆乃大学之重地，知识之殿堂。古云“小荷才露尖尖角”，勤学之子犹如初生之荷，在书海的映照下焕发勃勃生机。旖旎的池畔风荷与庄严的图书馆相互映照，清淡的荷香与高雅的书香相互氤氲。每逢六月，临别的毕业学子多在此留影，书馆、荷影、人面交相辉映，美不胜收，遂成一景。该景点倡导学子“博学之”。
+          - paragraph [ref=e86]
+          - paragraph [ref=e87]: 五、兰亭春晓，位于月雅湖畔西北角的花园。此亭乃仿文一校区“小兰亭”所建，寄托了杭电人对老校区的依依情怀。文一校区为全国四百家绿化先进单位，其中心花园，护土叠石，砌阶敷径，广种佳木，间植花卉，中有“士子苑”与“小兰亭”，各别点缀，多有蕴涵。此处虽弹丸之地，然落英缤纷，层绿绕园，曲径通幽，移步换景。学子在此间或咏或叙或思或憩，是为校园最幽处。
+          - paragraph [ref=e88]
+          - paragraph [ref=e89]: 六、艺苑秋歌，位于文化活动中心，为学校艺术荟萃之地，曾举办过第七届中国艺术节、大学生电影节，是“高雅艺术进校园”的演出基地。杭电素有原创音乐文化，培育了不少原创歌手，从摇滚巨星郑钧、音乐才子杨一、音乐小精灵陈悠悠到“中国最强音”刘瑞琦。这里孕育了1900原创影音工作室，已成为杭电原创艺术才子的“孵化器”。
+          - paragraph [ref=e90]
+          - paragraph [ref=e91]: 七、丛鱼听学，位于第十一教研楼与第十二教研楼之畔的东溪。溪中红鱼成群，自由嬉闹，惹人怜爱。东溪丛鱼在教学楼下听学已久，日夜熏陶，似有灵性。闲暇时，学子浅坐岸边，人鱼同乐，好不惬意。清华大学老校长梅贻琦先生曰“学校犹水也，师生犹鱼也，其行动犹游泳也，大鱼前导，小鱼尾随，是从游也。”该景点倡导学子“审问之”。
+          - paragraph [ref=e92]
+          - paragraph [ref=e93]: 八、三省问天，位于校园中轴线上的问天广场，乃学校正中心的大型雕塑。三根石柱擎天而立，柱身刻有各类象征符号，分别代表过去、现在和未来，上方有一圆轮连接三根石柱，象征时光的车轮滚滚向前，不断轮回。子曰“吾日三省吾身”，屈原亦有《天问》之作，于此处，思前贤，低头可躬身自问，仰头可探究苍穹。该景点倡导学子“慎思之”。
+          - paragraph [ref=e94]
+          - paragraph [ref=e95]: 九、藤廊寄梦，位于学生生活区“文一苑”的校友主题公园。廊长百余米，蜿蜒于宿舍楼下，上覆紫藤，每到春天，花开满廊，别有韵味，廊间镌刻校友寄语。杭电被誉为“中国IT企业家的摇篮”，知名校友企业有阿里巴巴集团、熊猫集团、海尔集团、长虹集团、海信集团、京东方集团等。校友们的励志寄语，激励着学子不断追求梦想，超越自我。
+          - paragraph [ref=e96]
+          - paragraph [ref=e97]: 十、麦野浮金，位于学校体育场北侧麦园。学校素来倡导学子走出宿舍，奔向操场，增强体质，健康生活。多年来，杭电“阳光体育”运动走在全省前列，学校获教育部“阳光体育冬季长跑活动”先进单位称号。每年5、6月，麦子成熟的季节，金色饱满的麦粒散发出诱人的香甜，学子在体育场内挥洒汗水后，移步北侧，走入麦园，即可陶醉于熏风麦浪之中，拥抱大自然，感受丰收的喜悦。
+          - paragraph [ref=e98]
+  - generic [ref=e100]:
+    - link [ref=e102] [cursor=pointer]:
+      - /url: https://bszs.conac.cn/sitename?method=show&id=DD1223430023BDB0E05310291AAC6BD6
+      - img [ref=e103]
+    - paragraph [ref=e104]: 杭州电子科技大学党委宣传部 版权所有 杭州电子科技大学新闻中心维护
+    - paragraph [ref=e105]: 浙ICP备12028388号 推荐使用Google浏览器、火狐浏览器、360浏览器（极速模式）

@@ -1,38 +1,16 @@
 Page({
   data: {
-    longitude: 120.3582,
-    latitude: 30.3175,
-    currentCategory: 0,
-    categories: [
-      { id: 0, name: '全部' },
-      { id: 1, name: '地标校门' },
-      { id: 2, name: '教学科研' },
-      { id: 3, name: '生活文体' }
-    ],
-    allMarkers: [
-      // 地标校门 (category 1)
-      { id: 1, longitude: 120.3580, latitude: 30.3135, title: '南大门', desc: '学校主校门，气势恢宏。', category: 1 },
-      { id: 2, longitude: 120.3582, latitude: 30.3175, title: '校图书馆', desc: '学校标志性建筑，造型如展开的书卷。', category: 1 },
-      { id: 3, longitude: 120.3582, latitude: 30.3162, title: '问鼎广场', desc: '校园中心广场，立有代表学术高峰的问鼎石。', category: 1 },
-      { id: 4, longitude: 120.3645, latitude: 30.3170, title: '东门', desc: '学校东侧正门，靠近文泽北路。', category: 1 },
-      { id: 5, longitude: 120.3635, latitude: 30.3142, title: '东南门', desc: '连接交通便利的地铁文泽路站出入口。', category: 1 },
-      { id: 6, longitude: 120.3615, latitude: 30.3145, title: '月雅湖', desc: '校园美景湖，湖畔常年树影婆娑、白鹭栖息。', category: 1 },
-
-      // 教学科研 (category 2)
-      { id: 7, longitude: 120.3538, latitude: 30.3142, title: '行政大楼', desc: '学校主要党政机关和行政办公服务场所。', category: 2 },
-      { id: 8, longitude: 120.3598, latitude: 30.3156, title: '1教 · 倍仁楼', desc: '重要公共教学和实验大楼。', category: 2 },
-      { id: 9, longitude: 120.3628, latitude: 30.3148, title: '科技馆', desc: '学术交流、重大科技成果展示以及展览场所。', category: 2 },
-      { id: 10, longitude: 120.3570, latitude: 30.3195, title: '6教 · 信诚楼', desc: '计算机、软件学院等专业科研与教学大楼。', category: 2 },
-      { id: 11, longitude: 120.3556, latitude: 30.3160, title: '2教 · 信义楼', desc: '理学院及电子信息类专业日常教学基地。', category: 2 },
-
-      // 生活运动 (category 3)
-      { id: 12, longitude: 120.3508, latitude: 30.3188, title: '体育馆', desc: '举办大型体育赛事、典礼及室内球类活动中心。', category: 3 },
-      { id: 13, longitude: 120.3618, latitude: 30.3182, title: '学生活动中心', desc: '学生组织办公、社团沙龙及文艺演出集聚地。', category: 3 },
-      { id: 14, longitude: 120.3592, latitude: 30.3228, title: '生活区美食城', desc: '汇聚一、三食堂及商业美食街，美食种类丰富。', category: 3 },
-      { id: 15, longitude: 120.3525, latitude: 30.3144, title: '休读园', desc: '环境清幽的小花园，是师生清晨静读的好地方。', category: 3 }
-    ],
-    markers: [],
-    filteredLocations: []
+    mapImage: '/images/map/hdu-map.jpg',
+    navTargets: [
+      { id: 'south-gate', name: '南大门', navName: '杭州电子科技大学南大门', desc: '学校主校门', lat: 30.3135, lng: 120.3580 },
+      { id: 'library', name: '校图书馆', navName: '杭州电子科技大学图书馆', desc: '校园核心地标', lat: 30.3175, lng: 120.3582 },
+      { id: 'question-square', name: '问鼎广场', navName: '杭州电子科技大学问鼎广场', desc: '校园中心广场', lat: 30.3162, lng: 120.3582 },
+      { id: 'building-1', name: '1教·倍仁楼', navName: '杭州电子科技大学1教·倍仁楼', desc: '公共教学大楼', lat: 30.3156, lng: 120.3598 },
+      { id: 'building-6', name: '6教·信诚楼', navName: '杭州电子科技大学6教·信诚楼', desc: '科研教学大楼', lat: 30.3195, lng: 120.3570 },
+      { id: 'gym', name: '体育馆', navName: '杭州电子科技大学体育馆', desc: '体育活动中心', lat: 30.3188, lng: 120.3508 },
+      { id: 'lake', name: '月雅湖', navName: '杭州电子科技大学月雅湖', desc: '校园景观湖', lat: 30.3145, lng: 120.3615 },
+      { id: 'food-court', name: '生活区美食城', navName: '杭州电子科技大学生活区美食城', desc: '生活配套中心', lat: 30.3228, lng: 120.3592 }
+    ]
   },
 
   onShow() {
@@ -41,71 +19,43 @@ Page({
     }
   },
 
-  onLoad() {
-    this.updateMarkers(0);
-  },
-
-  switchCategory(e) {
-    const catId = parseInt(e.currentTarget.dataset.id, 10);
-    this.updateMarkers(catId);
-  },
-
-  updateMarkers(catId) {
-    const filtered = catId === 0 
-      ? this.data.allMarkers 
-      : this.data.allMarkers.filter(m => m.category === catId);
-
-    const mapMarkers = filtered.map(m => ({
-      id: m.id,
-      longitude: m.longitude,
-      latitude: m.latitude,
-      title: m.title,
-      desc: m.desc,
-      category: m.category,
-      iconPath: '/images/marker.png',
-      width: 28,
-      height: 28,
-      callout: {
-        content: m.title,
-        color: '#1e3a8a',
-        fontSize: 11,
-        borderRadius: 6,
-        bgColor: '#ffffff',
-        padding: 6,
-        display: 'ALWAYS'
+  previewMap() {
+    wx.previewImage({
+      current: this.data.mapImage,
+      urls: [this.data.mapImage],
+      fail() {
+        wx.showToast({
+          title: '地图加载失败',
+          icon: 'none'
+        });
       }
-    }));
-
-    this.setData({
-      currentCategory: catId,
-      markers: mapMarkers,
-      filteredLocations: mapMarkers
     });
   },
 
-  onMarkerTap(e) {
-    const marker = this.data.allMarkers.find(m => m.id === e.detail.markerId || m.id === e.markerId);
-    if (marker) {
-      wx.showModal({
-        title: marker.title,
-        content: marker.desc,
-        showCancel: false,
-        confirmColor: '#1e3a8a'
+  goToBaiduNavigation(e) {
+    const { name, navName, desc, lat, lng } = e.currentTarget.dataset;
+    const latitude = Number(lat);
+    const longitude = Number(lng);
+
+    if (!Number.isFinite(latitude) || !Number.isFinite(longitude)) {
+      wx.showToast({
+        title: '定位信息无效',
+        icon: 'none'
       });
+      return;
     }
-  },
 
-  moveToMarker(e) {
-    const m = e.currentTarget.dataset.marker;
-    this.setData({
-      longitude: m.longitude,
-      latitude: m.latitude
-    });
-    // 可以通过 mapContext 使得地图平移缩放
-    const mapCtx = wx.createMapContext('campusMap');
-    mapCtx.moveToLocation({
-      longitude: m.longitude,
-      latitude: m.latitude
+    wx.openLocation({
+      latitude,
+      longitude,
+      name: navName || name,
+      address: desc || '杭州电子科技大学',
+      scale: 18,
+      fail: () => {
+        wx.navigateTo({
+          url: `/pages/baidu-navi/baidu-navi?label=${encodeURIComponent(name)}&targetName=${encodeURIComponent(navName || name)}&address=${encodeURIComponent(desc || '杭州电子科技大学')}&lat=${latitude}&lng=${longitude}`
+        });
+      }
     });
   }
 });

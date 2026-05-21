@@ -1,0 +1,92 @@
+- generic [ref=e2]:
+  - heading "杭电首页" [level=6] [ref=e4] [cursor=pointer]:
+    - link "杭电首页" [ref=e5]:
+      - /url: https://www.hdu.edu.cn/
+  - generic [ref=e6]:
+    - generic [ref=e7]:
+      - link "返回新闻网首页" [ref=e9] [cursor=pointer]:
+        - /url: /news/main.htm
+        - img [ref=e10]
+      - generic [ref=e12]:
+        - paragraph [ref=e13]: 2026年05月
+        - heading "20" [level=1] [ref=e14]
+        - paragraph [ref=e15]: 星期三
+        - paragraph
+    - generic [ref=e16]:
+      - list [ref=e17]:
+        - listitem [ref=e18] [cursor=pointer]:
+          - link "新闻网" [ref=e19]:
+            - /url: http://www.hdu.edu.cn/news/main.htm
+        - listitem [ref=e20] [cursor=pointer]:
+          - link "要闻聚焦" [ref=e21]:
+            - /url: /news/hdxw/list.htm
+        - listitem [ref=e22] [cursor=pointer]:
+          - link "在线投稿" [ref=e23]:
+            - /url: http://zhanqun.hdu.edu.cn/_web/_plugs/_artContribute/web/contributeArtFrame.jsp?type=1&siteFolderId=30091&_p=YXM9MjcmdD00NTUmcD0xJm09TiY_
+        - listitem [ref=e24] [cursor=pointer]:
+          - link "在线审核" [ref=e25]:
+            - /url: http://zhanqun.hdu.edu.cn
+      - img "search" [ref=e27] [cursor=pointer]
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - generic [ref=e30]:
+          - generic [ref=e31]:
+            - heading "第04版：副刊" [level=1] [ref=e32]
+            - heading [level=2] [ref=e33]
+          - generic [ref=e35]:
+            - generic [ref=e37] [cursor=pointer]: "2025"
+            - generic [ref=e39]:
+              - generic [ref=e40] [cursor=pointer]: "1"
+              - generic [ref=e41] [cursor=pointer]: "2"
+              - generic [ref=e42] [cursor=pointer]: "3"
+              - generic [ref=e43] [cursor=pointer]: "4"
+              - generic [ref=e44] [cursor=pointer]: "5"
+              - generic [ref=e45] [cursor=pointer]: "6"
+              - generic [ref=e46] [cursor=pointer]: "7"
+              - generic [ref=e47] [cursor=pointer]: "8"
+              - generic [ref=e48] [cursor=pointer]: "9"
+              - generic [ref=e49] [cursor=pointer]: "10"
+              - generic [ref=e50] [cursor=pointer]: "11"
+              - generic [ref=e51] [cursor=pointer]: "12"
+          - list [ref=e52]
+          - list [ref=e55]:
+            - listitem [ref=e56] [cursor=pointer]: "1"
+            - listitem [ref=e57] [cursor=pointer]: "2"
+            - listitem [ref=e58] [cursor=pointer]: "3"
+            - listitem [ref=e59] [cursor=pointer]: "4"
+            - listitem [ref=e60] [cursor=pointer]: "5"
+            - listitem [ref=e61] [cursor=pointer]: 下页
+        - generic [ref=e62]:
+          - generic [ref=e63]:
+            - img [ref=e64]
+            - paragraph [ref=e65]:
+              - link "杭州电子科技大学官方微信" [ref=e66] [cursor=pointer]:
+                - /url: /news/2022/0916/c7529a157839/page.htm
+          - generic [ref=e67]:
+            - img [ref=e68]
+            - paragraph [ref=e69]:
+              - link "杭州电子科技大学官方微博" [ref=e70] [cursor=pointer]:
+                - /url: /news/2022/0916/c7529a157821/page.htm
+      - generic [ref=e71]:
+        - generic [ref=e72]: 重游老校区，遇见最美丽的杭电
+        - generic [ref=e73]: 作者：宋建跃/摄 来源：新闻网 时间：2014-05-30
+        - generic [ref=e77]:
+          - paragraph [ref=e78]
+          - paragraph [ref=e79]
+          - paragraph [ref=e80]: 每所大学都有自己的老校区，供前人追忆，予后人回味。杭电也有一个老校区，它坐落于城西的文教区内，与学校的办学历史一样长久；它临河傍水，茂林修篁，绿树成荫，芳草幽径，在杭电历届学子心目中享有“西湖十一景”的美誉；在它的现有建筑中，行政楼、东西教学楼和“工”字楼，被杭州市列入并公布为第二批历史建筑保护名录。它就是古色古香的文一校区。参天的大树，古朴的红楼，还有那林间的凉亭，文一校区就像一位迟暮的老人，脸上写满了岁月的痕迹，但那是时光雕琢上去的美丽印记。请跟着我们的镜头，重游一番老校区，穿过那些静谧的时光，再次感受杭电的不老魅力。
+          - paragraph [ref=e81]
+          - paragraph [ref=e83]
+          - paragraph [ref=e85]
+          - paragraph [ref=e87]
+          - paragraph [ref=e89]
+          - paragraph [ref=e91]
+          - paragraph [ref=e93]
+          - paragraph [ref=e95]
+          - paragraph [ref=e97]
+          - paragraph [ref=e99]
+  - generic [ref=e102]:
+    - link [ref=e104] [cursor=pointer]:
+      - /url: https://bszs.conac.cn/sitename?method=show&id=DD1223430023BDB0E05310291AAC6BD6
+      - img [ref=e105]
+    - paragraph [ref=e106]: 杭州电子科技大学党委宣传部 版权所有 杭州电子科技大学新闻中心维护
+    - paragraph [ref=e107]: 浙ICP备12028388号 推荐使用Google浏览器、火狐浏览器、360浏览器（极速模式）

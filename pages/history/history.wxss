@@ -1,15 +1,20 @@
 .history-page {
+  position: relative;
+  z-index: 1;
   min-height: 100vh;
-  background-color: #f5f7fa;
-  padding-bottom: 160rpx; /* Leave space for custom tab bar */
+  background:
+    linear-gradient(180deg, rgba(246, 251, 255, 0.98), rgba(238, 245, 252, 0.98));
+  padding-bottom: 170rpx; /* Leave space for custom tab bar */
 }
 
 /* 顶部 Banner 区 */
 .header {
   position: relative;
-  height: 380rpx;
+  height: 400rpx;
   width: 100%;
   overflow: hidden;
+  border-radius: 0 0 32rpx 32rpx;
+  z-index: 1;
 }
 
 .header-bg {
@@ -18,53 +23,100 @@
   display: block;
 }
 
+.header-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(8, 15, 32, 0.18) 0%, rgba(8, 15, 32, 0.55) 100%);
+  z-index: 1;
+  pointer-events: none;
+}
+
+.header-grid {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  background-image:
+    linear-gradient(135deg, rgba(32, 213, 255, 0.1), transparent 46%),
+    repeating-linear-gradient(90deg, rgba(255, 255, 255, 0.12) 0, rgba(255, 255, 255, 0.12) 1rpx, transparent 1rpx, transparent 56rpx);
+  opacity: 0.32;
+  pointer-events: none;
+}
+
+.header-scan {
+  position: absolute;
+  left: 0;
+  top: 18rpx;
+  z-index: 3;
+  width: 44%;
+  height: 3rpx;
+  background: linear-gradient(90deg, transparent, rgba(32, 213, 255, 0.98), transparent);
+  box-shadow: 0 0 20rpx rgba(32, 213, 255, 0.54);
+  pointer-events: none;
+}
+
 .header-text {
   position: absolute;
-  left: 40rpx;
-  bottom: 40rpx;
+  left: 32rpx;
+  right: 32rpx;
+  bottom: 32rpx;
   z-index: 10;
   display: flex;
   flex-direction: column;
 }
 
+.header-badge {
+  align-self: flex-start;
+  margin-bottom: 14rpx;
+  padding: 8rpx 18rpx;
+  border-radius: 999rpx;
+  background: rgba(12, 140, 255, 0.2);
+  border: 1rpx solid rgba(32, 213, 255, 0.36);
+  color: #ffffff;
+  font-size: 22rpx;
+  letter-spacing: 2rpx;
+  box-shadow: 0 0 18rpx rgba(12, 140, 255, 0.18);
+}
+
 .big-title {
-  font-size: 44rpx;
+  font-size: 46rpx;
   font-weight: bold;
   color: #ffffff;
-  letter-spacing: 2rpx;
-  text-shadow: 0 4rpx 12rpx rgba(0, 0, 0, 0.5);
+  letter-spacing: 1rpx;
+  text-shadow: 0 6rpx 18rpx rgba(0, 0, 0, 0.34);
 }
 
 .sub-title {
   font-size: 24rpx;
   color: rgba(255, 255, 255, 0.85);
   margin-top: 10rpx;
-  letter-spacing: 4rpx;
+  letter-spacing: 3rpx;
   text-transform: uppercase;
-  text-shadow: 0 2rpx 6rpx rgba(0, 0, 0, 0.5);
+  text-shadow: 0 2rpx 6rpx rgba(0, 0, 0, 0.34);
 }
 
 /* 时间线布局 */
 .timeline {
-  padding: 40rpx 24rpx;
+  padding: 32rpx 20rpx 0;
   box-sizing: border-box;
+  position: relative;
+  z-index: 1;
 }
 
 .timeline-item {
   display: flex;
   position: relative;
-  padding-bottom: 48rpx;
+  padding-bottom: 34rpx;
 }
 
 /* 时间线连接线 */
 .timeline-item::after {
   content: '';
   position: absolute;
-  left: 164rpx; /* 精确计算的中心线位置：120rpx(year) + 30rpx(margin) + 16rpx(dot中心) - 2rpx(线宽的一半) */
-  top: 36rpx;
+  left: 165rpx;
+  top: 34rpx;
   bottom: 0;
   width: 4rpx;
-  background-color: #e2e8f0;
+  background: linear-gradient(180deg, rgba(12, 140, 255, 0.18), rgba(32, 213, 255, 0.04));
   z-index: 1;
 }
 
@@ -75,25 +127,25 @@
 /* 年份样式 */
 .year {
   width: 120rpx;
-  font-size: 32rpx;
+  font-size: 31rpx;
   font-weight: bold;
-  color: #1e3a8a;
+  color: #0b2f68;
   text-align: right;
   margin-right: 30rpx;
   flex-shrink: 0;
-  padding-top: 4rpx;
+  padding-top: 6rpx;
 }
 
 /* 圆点样式 */
 .dot {
-  width: 16rpx;
-  height: 16rpx;
+  width: 18rpx;
+  height: 18rpx;
   border-radius: 50%;
-  background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+  background: linear-gradient(135deg, #20d5ff, #0c8cff);
   border: 6rpx solid #ffffff;
-  box-shadow: 0 0 0 6rpx rgba(30, 58, 138, 0.1);
+  box-shadow: 0 0 0 8rpx rgba(12, 140, 255, 0.08), 0 0 16rpx rgba(32, 213, 255, 0.18);
   z-index: 5;
-  margin-top: 14rpx;
+  margin-top: 12rpx;
   flex-shrink: 0;
 }
 
@@ -101,32 +153,38 @@
 .content {
   flex: 1;
   margin-left: 30rpx;
-  background-color: #ffffff;
-  padding: 24rpx 28rpx;
-  border-radius: 20rpx;
-  box-shadow: 0 6rpx 18rpx rgba(30, 58, 138, 0.02);
-  border: 1rpx solid #f1f5f9;
+  padding: 26rpx 28rpx;
+  border-radius: 24rpx;
   z-index: 5;
   transform: translate3d(0, 0, 0);
   transition: all 0.2s ease;
+  overflow: hidden;
 }
 
 .timeline-item:active .content {
-  background-color: #f8fafc;
+  background-color: rgba(255, 255, 255, 0.9);
   transform: translateY(2rpx);
 }
 
+.content-accent {
+  position: absolute;
+  left: 22rpx;
+  right: 22rpx;
+  top: 0;
+  pointer-events: none;
+}
+
 .event-title {
-  font-size: 28rpx;
+  font-size: 30rpx;
   font-weight: bold;
-  color: #1e3a8a;
-  margin-bottom: 8rpx;
+  color: #0b1b36;
+  margin-bottom: 10rpx;
   display: block;
 }
 
 .event-desc {
   font-size: 24rpx;
-  color: #4b5563;
-  line-height: 1.5;
+  color: #46576e;
+  line-height: 1.7;
   display: block;
 }

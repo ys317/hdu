@@ -1,0 +1,199 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - paragraph [ref=e5]:
+        - link "杭电官网" [ref=e6] [cursor=pointer]:
+          - /url: http://www.hdu.edu.cn
+      - paragraph
+    - img [ref=e8]
+    - list [ref=e10]:
+      - listitem [ref=e11]:
+        - link "首页" [ref=e12] [cursor=pointer]:
+          - /url: /
+      - listitem [ref=e13]:
+        - link "学校介绍" [ref=e14] [cursor=pointer]:
+          - /url: "#"
+      - listitem [ref=e15]:
+        - link "报考指南" [ref=e16] [cursor=pointer]:
+          - /url: "#"
+      - listitem [ref=e17]:
+        - link "招考动态" [ref=e18] [cursor=pointer]:
+          - /url: "#"
+      - listitem [ref=e19]:
+        - link "招生咨询" [ref=e20] [cursor=pointer]:
+          - /url: "#"
+      - listitem [ref=e21]:
+        - link "学生发展" [ref=e22] [cursor=pointer]:
+          - /url: "#"
+      - listitem [ref=e23]:
+        - link "校园生活" [ref=e24] [cursor=pointer]:
+          - /url: "#"
+  - generic [ref=e25]:
+    - generic [ref=e26]:
+      - list [ref=e27]:
+        - listitem [ref=e28]
+        - listitem [ref=e29]
+        - listitem [ref=e30]
+        - listitem [ref=e31]
+        - listitem [ref=e32]
+      - list [ref=e33]:
+        - listitem [ref=e34]: "1"
+        - listitem [ref=e35]: "2"
+        - listitem [ref=e36]: "3"
+        - listitem [ref=e37]: "4"
+        - listitem [ref=e38]: "5"
+    - generic [ref=e39]:
+      - heading "初见杭电" [level=1] [ref=e41]
+      - paragraph [ref=e43]: 作者：along 浏览数:37872 发表时间：2015-06-09
+      - generic [ref=e44]:
+        - paragraph [ref=e45]:
+          - generic:
+            - strong
+          - text: HDU全景
+        - paragraph [ref=e46]
+        - paragraph [ref=e47]: 熟悉的地方没有美景。让时间慢下来，扮演一个新生，找一个晴天，爬上七教的楼顶——赭白相间的教学楼，蓝天绿地，此时你才发现那些在行色匆匆间错过的风景才是大学生活里最容易逝去的感动！
+        - paragraph [ref=e48]
+        - paragraph [ref=e49]
+        - paragraph [ref=e50]: 月雅春霞
+        - paragraph [ref=e51]
+        - paragraph [ref=e52]: 正门下，多少雄心壮志冲天去；月雅畔，多少甜言蜜语萦绕间。赤霞伴紫气，绿叶复红梅。有道是“一年之计在于春”，何不趁此良辰美景间扬帆起航！
+        - paragraph [ref=e53]
+        - paragraph [ref=e54]: 问鼎广场
+        - paragraph [ref=e55]
+        - paragraph [ref=e56]: 还未走入杭电大门，远远地就可以看到它矗立在那里。寻一个阳光灿烂的午后，沿着石阶拾级而上。偶有喷泉四周跳跃，指腹轻触岁月的痕迹，舒缓而宁静。
+        - paragraph [ref=e57]
+        - paragraph [ref=e58]: 图书馆
+        - paragraph [ref=e59]
+        - paragraph [ref=e60]: 图书馆，像浩瀚大海中的一艘油轮,给你充分的休息与补给；像茫茫宇宙中的空间站，有了它我们才能站住脚跟；像落满树叶的后山，一页页的书汇总在一起，才最最塌实，不会失重于知识的维度。
+        - paragraph [ref=e61]
+        - paragraph [ref=e62]: 体育馆
+        - paragraph [ref=e63]
+        - paragraph [ref=e64]: 有人说它像磐石，沉稳，不变，高端；有人说它像玄武，是一个见证者，记录着每一个大气的瞬间；也有人说它像飞碟，黑科技，后现代，上档次！
+        - paragraph [ref=e65]
+        - paragraph [ref=e66]: 体育场跑道
+        - paragraph [ref=e67]
+        - paragraph [ref=e68]: 在杭电，有这样一片跑道，和生活区只隔了一道门。你可能不常去，但是你不会忽略它的存在。因为在这里的每一次发令枪响，都是青春交响曲的第一乐章；也因为在这里的每一次呼吸，都会发出人生进行曲的强音。待阳光明媚，陪我一起跑步可好？
+        - paragraph [ref=e69]
+        - paragraph [ref=e70]
+        - paragraph [ref=e71]: 杭电之春
+        - paragraph [ref=e72]
+        - paragraph [ref=e73]
+        - paragraph [ref=e74]: 红梅花开
+        - paragraph [ref=e75]:
+          - generic [ref=e76]: 春天的杭电，处处流动着青春的气息，空气中弥漫着一阵又一阵淡淡的花香，林逋那“疏影横斜水清浅，暗香浮动月黄昏”的句子，用来形容此时的花开再恰当不过。尤其是图书馆西边的梅花林，风一吹，满地落花。
+        - paragraph [ref=e77]
+        - paragraph [ref=e78]
+        - paragraph [ref=e80]
+        - paragraph [ref=e81]: 月雅湖之春
+        - paragraph [ref=e82]:
+          - generic [ref=e83]: 阳光明媚，春风抚柳，春天在这里独美。蓝天白云，红花绿叶，以及这一切早春说不尽的美好都被倒映在月雅湖里。杭电之美，尽在此湖畔。
+        - paragraph [ref=e84]
+        - paragraph [ref=e85]
+        - paragraph [ref=e87]
+        - paragraph [ref=e88]: 落花小道
+        - paragraph [ref=e89]:
+          - generic [ref=e90]: 我们早已被快节奏的生活占据，以骑车代替漫步，选择大路而非小道；往往被自身的琐事困扰，可能再也难以寻回“无可奈何花落去，小园香径独徘徊”的感动。殊不知昨夜微雨，弄湿了小道；春风似有似无，花瓣依然“秒速五厘米”着。此间美但是可能很多杭电人都叫不出她的名字——她纯白无暇，用自己的芬芳和美丽在路畔为我们带来一整天的好心情——请记住，她就是垂丝海棠。
+        - paragraph [ref=e91]
+        - paragraph [ref=e92]: 杭电之夏
+        - paragraph [ref=e93]
+        - paragraph [ref=e94]
+        - paragraph [ref=e95]: 环湖漫步，天朗气清
+        - paragraph [ref=e96]
+        - paragraph [ref=e97]
+        - paragraph [ref=e98]: 丝丝雨露开伞花，悠然美景醉清新
+        - paragraph [ref=e99]
+        - paragraph [ref=e100]
+        - paragraph [ref=e101]:
+          - generic [ref=e102]: 明净的湖水晃动着楼宇和白云的倒影，宛若一面天镜
+        - paragraph [ref=e103]
+        - paragraph [ref=e104]: 杭电之秋
+        - paragraph [ref=e105]
+        - paragraph [ref=e106]
+        - paragraph [ref=e107]: 盛秋而来，樱花浓情，不只富士山下。夕阳相随，落叶相伴，杭电深秋好时节。(中华樱花，地点：金沙东路西侧)
+        - paragraph [ref=e108]
+        - paragraph [ref=e109]
+        - paragraph [ref=e110]: 深秋，银杏的季节，风载着落叶一路纷飞，满地尽是黄金。(银杏，地点：体育场东侧)
+        - paragraph [ref=e111]
+        - paragraph [ref=e112]
+        - paragraph [ref=e113]: 款款秋意，浅浅紫衣，又见一帘幽梦。(红花酢浆草，地点：二教前边草坪)
+        - paragraph [ref=e115]
+        - paragraph [ref=e116]: 杭电之冬
+        - paragraph [ref=e117]
+        - paragraph [ref=e118]
+        - paragraph [ref=e119]: 雪中杭电
+        - paragraph [ref=e120]
+        - paragraph [ref=e121]
+        - paragraph [ref=e122]: 文一雪景
+        - paragraph [ref=e123]
+        - paragraph [ref=e124]: 星空杭电
+        - paragraph [ref=e125]
+        - paragraph [ref=e126]: 月雅湖为镜，映出整片星空
+        - paragraph [ref=e127]
+        - paragraph [ref=e128]
+        - paragraph [ref=e129]: 仿佛流星雨降临的问鼎广场
+        - paragraph [ref=e130]
+        - paragraph [ref=e131]
+        - paragraph [ref=e132]
+        - paragraph [ref=e133]:
+          - generic [ref=e134]: 凌晨1点30，校园里万籁俱静。
+        - paragraph [ref=e135]: 点点星光与地面上的零星灯光交辉相印！
+        - paragraph [ref=e136]
+        - paragraph [ref=e137]
+        - paragraph [ref=e138]: 印象杭电
+        - paragraph [ref=e139]
+        - paragraph [ref=e140]: 月雅湖
+        - paragraph [ref=e141]
+        - paragraph [ref=e142]
+        - paragraph [ref=e143]: 校园一景
+        - paragraph [ref=e144]
+        - paragraph [ref=e145]
+        - paragraph [ref=e146]: 问鼎广场
+        - paragraph [ref=e147]
+        - paragraph [ref=e148]
+        - paragraph [ref=e149]: 美丽杭电，彩化校园
+        - paragraph [ref=e150]
+        - paragraph [ref=e151]
+        - paragraph [ref=e152]
+        - paragraph [ref=e153]: 梅花 位置：综合楼、8教南侧道路 最佳观赏期：2月底至3月初
+        - paragraph [ref=e154]
+        - paragraph [ref=e155]
+        - paragraph [ref=e156]: 樱花 位置：校园常态分布 最佳观赏期：3月底至4月上旬
+        - paragraph [ref=e157]
+        - paragraph [ref=e158]
+        - paragraph [ref=e159]
+        - paragraph [ref=e160]:
+          - generic [ref=e161]: 荷花盆景 位置：中轴线南大门广场、问鼎广场、图书馆南侧 观赏期：6月至9月
+        - paragraph [ref=e162]
+        - paragraph [ref=e163]
+        - paragraph [ref=e164]: 银杏 位置：校园常态分布，金沙路银杏大道、月雅湖南侧 最佳观赏期：10月底至11月中旬
+        - paragraph [ref=e165]
+        - paragraph [ref=e166]
+  - generic [ref=e167]:
+    - generic:
+      - generic [ref=e168]:
+        - img [ref=e169]
+        - paragraph [ref=e170]:
+          - text: 咨询电话：0571-86915007 / 地址：杭州下沙高教园区二号大街 / 邮编：310018 Email:zhaosheng@hdu.edu.cn
+          - text: 举报信箱：xfjb@hdu.edu.cn / 举报电话：86915055 / 举报地址：杭州电子科技大学行政楼7楼纪检监察室
+      - generic [ref=e171]:
+        - generic [ref=e172]:
+          - link [ref=e173] [cursor=pointer]:
+            - /url: http://t.qq.com/hdu_zs
+            - img [ref=e174]
+          - img [ref=e175]
+          - img [ref=e176]
+        - generic:
+          - list:
+            - listitem [ref=e177]:
+              - link "学校官方微信" [ref=e178] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e179]:
+              - link "招生官方微信" [ref=e180] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e181]:
+              - link "腾讯微博在线" [ref=e182] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e183]:
+              - link "手机版招生网" [ref=e184] [cursor=pointer]:
+                - /url: "#"
+    - generic [ref=e185]: Copyright © Hangzhou Dianzi University Admissions office.All Rights Reserved

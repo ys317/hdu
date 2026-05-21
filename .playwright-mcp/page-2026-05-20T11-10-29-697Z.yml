@@ -1,0 +1,164 @@
+- generic [ref=e2]:
+  - heading "杭电首页" [level=6] [ref=e4] [cursor=pointer]:
+    - link "杭电首页" [ref=e5]:
+      - /url: https://www.hdu.edu.cn/
+  - generic [ref=e6]:
+    - generic [ref=e7]:
+      - link "返回新闻网首页" [ref=e9] [cursor=pointer]:
+        - /url: /news/main.htm
+        - img [ref=e10]
+      - generic [ref=e12]:
+        - paragraph [ref=e13]: 2026年05月
+        - heading "20" [level=1] [ref=e14]
+        - paragraph [ref=e15]: 星期三
+        - paragraph
+    - generic [ref=e16]:
+      - list [ref=e17]:
+        - listitem [ref=e18] [cursor=pointer]:
+          - link "新闻网" [ref=e19]:
+            - /url: http://www.hdu.edu.cn/news/main.htm
+        - listitem [ref=e20] [cursor=pointer]:
+          - link "要闻聚焦" [ref=e21]:
+            - /url: /news/hdxw/list.htm
+        - listitem [ref=e22] [cursor=pointer]:
+          - link "在线投稿" [ref=e23]:
+            - /url: http://zhanqun.hdu.edu.cn/_web/_plugs/_artContribute/web/contributeArtFrame.jsp?type=1&siteFolderId=30091&_p=YXM9MjcmdD00NTUmcD0xJm09TiY_
+        - listitem [ref=e24] [cursor=pointer]:
+          - link "在线审核" [ref=e25]:
+            - /url: http://zhanqun.hdu.edu.cn
+      - img "search" [ref=e27] [cursor=pointer]
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - generic [ref=e30]:
+          - generic [ref=e31]:
+            - heading "要闻聚焦" [level=1] [ref=e32]
+            - heading "IMPORTANT NEWS" [level=2] [ref=e33]:
+              - generic [ref=e34]: IMPORTANT NEWS
+          - generic [ref=e36]:
+            - generic [ref=e38] [cursor=pointer]: "2025"
+            - generic [ref=e40]:
+              - generic [ref=e41] [cursor=pointer]: "1"
+              - generic [ref=e42] [cursor=pointer]: "2"
+              - generic [ref=e43] [cursor=pointer]: "3"
+              - generic [ref=e44] [cursor=pointer]: "4"
+              - generic [ref=e45] [cursor=pointer]: "5"
+              - generic [ref=e46] [cursor=pointer]: "6"
+              - generic [ref=e47] [cursor=pointer]: "7"
+              - generic [ref=e48] [cursor=pointer]: "8"
+              - generic [ref=e49] [cursor=pointer]: "9"
+              - generic [ref=e50] [cursor=pointer]: "10"
+              - generic [ref=e51] [cursor=pointer]: "11"
+              - generic [ref=e52] [cursor=pointer]: "12"
+          - list [ref=e53]:
+            - listitem [ref=e54] [cursor=pointer]:
+              - link "颜成钢教授主持成果获教育部科学... 2025-12-31":
+                - /url: http://www.hdu.edu.cn/news/2025/1231/c7511a289283/page.htm
+                - generic [ref=e56]: 颜成钢教授主持成果获教育部科学...
+                - generic [ref=e57]: 2025-12-31
+            - listitem [ref=e58] [cursor=pointer]:
+              - link "我校学报首届青年编委会成立大会... 2025-12-30":
+                - /url: http://www.hdu.edu.cn/news/2025/1229/c7511a289225/page.htm
+                - generic [ref=e60]: 我校学报首届青年编委会成立大会...
+                - generic [ref=e61]: 2025-12-30
+            - listitem [ref=e62] [cursor=pointer]:
+              - link "学校发布全面加强党的领导提高办... 2025-12-25":
+                - /url: http://www.hdu.edu.cn/news/2025/1225/c7511a289166/page.htm
+                - generic [ref=e64]: 学校发布全面加强党的领导提高办...
+                - generic [ref=e65]: 2025-12-25
+            - listitem [ref=e66] [cursor=pointer]:
+              - link "我校协办的第八届CCF中国区块链... 2025-12-25":
+                - /url: http://www.hdu.edu.cn/news/2025/1223/c7511a289112/page.htm
+                - generic [ref=e68]: 我校协办的第八届CCF中国区块链...
+                - generic [ref=e69]: 2025-12-25
+            - listitem [ref=e70] [cursor=pointer]:
+              - link "我校成功入选2025年度全国高校后... 2025-12-25":
+                - /url: http://www.hdu.edu.cn/news/2025/1225/c7511a289143/page.htm
+                - generic [ref=e72]: 我校成功入选2025年度全国高校后...
+                - generic [ref=e73]: 2025-12-25
+            - listitem [ref=e74] [cursor=pointer]:
+              - link "我校在第十六届浙江省大学生职业... 2025-12-22":
+                - /url: http://www.hdu.edu.cn/news/2025/1222/c7511a289087/page.htm
+                - generic [ref=e76]: 我校在第十六届浙江省大学生职业...
+                - generic [ref=e77]: 2025-12-22
+            - listitem [ref=e78] [cursor=pointer]:
+              - link "浙江恒强科技股份有限公司董事长... 2025-12-22":
+                - /url: http://www.hdu.edu.cn/news/2025/1222/c7511a289078/page.htm
+                - generic [ref=e80]: 浙江恒强科技股份有限公司董事长...
+                - generic [ref=e81]: 2025-12-22
+            - listitem [ref=e82] [cursor=pointer]:
+              - link "塞浦路斯理工大学孔子学院成功举... 2025-12-18":
+                - /url: http://www.hdu.edu.cn/news/2025/1216/c7511a288600/page.htm
+                - generic [ref=e84]: 塞浦路斯理工大学孔子学院成功举...
+                - generic [ref=e85]: 2025-12-18
+            - listitem [ref=e86] [cursor=pointer]:
+              - link "我校在2025年浙江省大学生艺术节... 2025-12-18":
+                - /url: http://www.hdu.edu.cn/news/2025/1217/c7511a288620/page.htm
+                - generic [ref=e88]: 我校在2025年浙江省大学生艺术节...
+                - generic [ref=e89]: 2025-12-18
+            - listitem [ref=e90] [cursor=pointer]:
+              - link "首发！我校研究生在物理学顶级期... 2025-12-16":
+                - /url: http://www.hdu.edu.cn/news/2025/1215/c7511a288587/page.htm
+                - generic [ref=e92]: 首发！我校研究生在物理学顶级期...
+                - generic [ref=e93]: 2025-12-16
+            - listitem [ref=e94] [cursor=pointer]:
+              - link "世界同心 杭电同行——杭州电子科... 2025-12-15":
+                - /url: http://www.hdu.edu.cn/news/2025/1215/c7511a288593/page.htm
+                - generic [ref=e96]: 世界同心 杭电同行——杭州电子科...
+                - generic [ref=e97]: 2025-12-15
+            - listitem [ref=e98] [cursor=pointer]:
+              - link "浙江省人工智能学院第一届奇点论... 2025-12-12":
+                - /url: http://www.hdu.edu.cn/news/2025/1209/c7511a288323/page.htm
+                - generic [ref=e100]: 浙江省人工智能学院第一届奇点论...
+                - generic [ref=e101]: 2025-12-12
+            - listitem [ref=e102] [cursor=pointer]:
+              - link "我校信息安全、信息对抗技术专业... 2025-12-11":
+                - /url: http://www.hdu.edu.cn/news/2025/1211/c7511a288377/page.htm
+                - generic [ref=e104]: 我校信息安全、信息对抗技术专业...
+                - generic [ref=e105]: 2025-12-11
+          - list [ref=e108]:
+            - listitem [ref=e109] [cursor=pointer]: "1"
+            - listitem [ref=e110] [cursor=pointer]: "2"
+            - listitem [ref=e111] [cursor=pointer]: "3"
+            - listitem [ref=e112] [cursor=pointer]: "4"
+            - listitem [ref=e113] [cursor=pointer]: "5"
+            - listitem [ref=e114] [cursor=pointer]: 下页
+        - generic [ref=e115]:
+          - generic [ref=e116]:
+            - img [ref=e117]
+            - paragraph [ref=e118]:
+              - link "杭州电子科技大学官方微信" [ref=e119] [cursor=pointer]:
+                - /url: /news/2022/0916/c7529a157839/page.htm
+          - generic [ref=e120]:
+            - img [ref=e121]
+            - paragraph [ref=e122]:
+              - link "杭州电子科技大学官方微博" [ref=e123] [cursor=pointer]:
+                - /url: /news/2022/0916/c7529a157821/page.htm
+      - generic [ref=e124]:
+        - generic [ref=e125]: 基础设施提质工程 | 焕然一新的杭电图书馆闪亮登场了
+        - generic [ref=e126]: 作者： 来源：图书馆 时间：2025-09-19
+        - generic [ref=e128]:
+          - paragraph [ref=e129]:
+            - strong [ref=e130]: 你有没有被学校焕然一“新”的图书馆惊艳到？
+          - paragraph [ref=e131]:
+            - img [ref=e132]
+          - paragraph [ref=e133]: 大楼上的“图书馆”三个铜字经过清洗后显得更加熠熠生辉！在二楼东自修室全新设置了敞亮的照明、舒适的座椅和阅读桌。在二楼北区域建成了可容纳50人左右的学术活动室。三楼打造了休闲小憩舒适区。四楼按照轻中式风格进行重点打造。六楼重点打造了10间大小不一的讨论间。每个讨论间均配备有隔音和独立空调系统。
+          - paragraph [ref=e134]:
+            - img [ref=e135]
+          - paragraph [ref=e136]:
+            - img [ref=e137]
+          - paragraph [ref=e138]:
+            - img [ref=e139]
+          - paragraph [ref=e140]: 我们还给每个功能区都取了名字，如二楼东学习空间取名为“格物E堂”，四楼学习空间取名为“宋韵云图”，六楼学习空间取名为“杭韵数阁”。
+          - paragraph [ref=e141]:
+            - strong [ref=e142]: 你心动了吗？
+          - paragraph [ref=e143]: 据了解，本次升级改造是浙江省高校基础设施提质工程的重要组成部分。项目以“环境美化、布局优化、功能细化、服务强化”为核心理念，进一步优化读者学习环境，增强空间利用成效，精心致力于为师生提供更加舒适、暖心、现代化的阅读体验，着力打造校园文化新地标。升级改造后的出入口更加便利，咨询服务台的服务更加暖心。二楼的学习空间焕然一新，四楼和六楼的空间布局更加合理。新更换的阅览桌和座椅，宽大舒适，为师生们提供了更加惬意的阅读体验。每个阅览桌上均配备了电源插座、独立照明和USB接口，光线明亮而柔和。改造一新的玻璃幕墙更加通透，使图书馆二楼大厅更显大气和庄严。今后在这里会不定期举办各类专题展览。每个楼层的过道、电梯间都进行了粉刷。十二楼部分无法正常使用的空调也已更新完毕。我们还在各楼层的学习空间新增设了10台静音舱，方便读者接打电话。每个舱体都配备照明设备、电源插座、USB端口，并设有单独通风系统。
+          - paragraph [ref=e144]: 在改造工程正式启动之前和改造过程中，校党委书记吴卿、校长陈积明非常关心项目的设计理念和改造进程，多次在图书馆召开现场会，研究商定有关细节。
+          - paragraph [ref=e145]:
+            - img [ref=e146]
+          - paragraph [ref=e147]: 图书馆将以本次环境改造提档升级为契机，致力于为师生提供更加优质的服务，唱响人工智能时代的“书海歌”，为杭电的高质量人才培养做出图书馆人的贡献。
+  - generic [ref=e149]:
+    - link [ref=e151] [cursor=pointer]:
+      - /url: https://bszs.conac.cn/sitename?method=show&id=DD1223430023BDB0E05310291AAC6BD6
+      - img [ref=e152]
+    - paragraph [ref=e153]: 杭州电子科技大学党委宣传部 版权所有 杭州电子科技大学新闻中心维护
+    - paragraph [ref=e154]: 浙ICP备12028388号 推荐使用Google浏览器、火狐浏览器、360浏览器（极速模式）

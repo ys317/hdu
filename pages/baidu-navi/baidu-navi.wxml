@@ -1,0 +1,17 @@
+<view class="nav-page">
+  <view class="nav-card">
+    <view class="nav-kicker">地图导航</view>
+    <text class="nav-title">{{label}}</text>
+    <text class="nav-subtitle">{{targetName}}</text>
+
+    <view class="nav-meta">
+      <text>坐标：{{latitude}}, {{longitude}}</text>
+      <text>地址：{{address}}</text>
+    </view>
+
+    <view wx:if="{{loading}}" class="nav-status">正在打开地图...</view>
+    <view wx:elif="{{error}}" class="nav-status nav-error">{{error}}</view>
+
+    <button wx:if="{{error}}" class="retry-btn" plain="true" bindtap="retryOpen">重新打开地图</button>
+  </view>
+</view>

@@ -1,21 +1,26 @@
-<view class="detail-container">
+<view class="detail-container tech-shell">
+  <view class="tech-grid-overlay"></view>
   <!-- 封面图 -->
-  <image wx:if="{{cover}}" src="{{cover}}" mode="aspectFill" class="cover-image"></image>
+  <view wx:if="{{cover}}" class="cover-frame">
+    <image src="{{cover}}" mode="aspectFill" class="cover-image"></image>
+    <view class="cover-grid"></view>
+    <view class="cover-scan tech-sweep"></view>
+  </view>
 
   <!-- 文章内容主体 -->
-  <view class="article-body">
+  <view class="article-body tech-panel tech-rise">
+    <view class="body-accent tech-accent"></view>
     <view class="title">{{title}}</view>
     
     <!-- 作者和时间 -->
     <view class="meta-info" wx:if="{{date || author}}">
-      <text class="author" wx:if="{{author}}">编辑：{{author}}</text>
-      <text class="divider" wx:if="{{author && date}}">|</text>
-      <text class="date" wx:if="{{date}}">时间：{{date}}</text>
+      <text class="meta-pill" wx:if="{{author}}">编辑：{{author}}</text>
+      <text class="meta-pill" wx:if="{{date}}">时间：{{date}}</text>
     </view>
 
     <!-- 文章段落 -->
     <view class="content-paragraphs">
-      <view class="paragraph" wx:for="{{content}}" wx:key="index">
+      <view class="paragraph tech-rise" wx:for="{{content}}" wx:for-index="index" wx:key="index" style="animation-delay: {{index * 80}}ms;">
         <text class="para-text">{{item}}</text>
       </view>
     </view>
@@ -23,6 +28,6 @@
 
   <!-- 底部返回按钮 -->
   <view class="footer-btn">
-    <button class="back-btn" bindtap="navigateBack">返回上一页</button>
+    <button class="back-btn tech-pulse" bindtap="navigateBack">返回上一页</button>
   </view>
 </view>

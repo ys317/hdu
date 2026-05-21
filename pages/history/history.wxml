@@ -1,17 +1,23 @@
-<view class="history-page">
+<view class="history-page tech-shell">
+  <view class="tech-grid-overlay"></view>
   <view class="header">
     <image src="/images/history-bg.jpg" class="header-bg"/>
+    <view class="header-overlay"></view>
+    <view class="header-grid"></view>
+    <view class="header-scan tech-sweep"></view>
     <view class="header-text">
+      <view class="header-badge">ARCHIVE / 1956 - NOW</view>
       <text class="big-title">校史沿革</text>
-      <text class="sub-title">Since 1956</text>
+      <text class="sub-title">Since 1956 · Campus memory timeline</text>
     </view>
   </view>
 
   <view class="timeline">
-    <view class="timeline-item" wx:for="{{timeline}}" wx:key="year">
+    <view class="timeline-item tech-rise" wx:for="{{timeline}}" wx:for-index="index" wx:key="year" style="animation-delay: {{index * 90}}ms;">
       <view class="year">{{item.year}}</view>
-      <view class="dot"></view>
-      <view class="content">
+      <view class="dot tech-pulse"></view>
+      <view class="content tech-panel">
+        <view class="content-accent tech-accent"></view>
         <text class="event-title">{{item.title}}</text>
         <text class="event-desc">{{item.desc}}</text>
       </view>

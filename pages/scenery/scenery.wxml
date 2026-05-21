@@ -1,15 +1,25 @@
-<view class="scenery-container">
-  <view class="tabs">
-    <view class="tab {{currentTab===item.id?'active':''}}" 
-          wx:for="{{tabs}}" wx:key="id"
+<view class="scenery-container tech-shell">
+  <view class="tech-grid-overlay"></view>
+  <view class="tabs tech-panel">
+    <view class="tab {{currentTab===item.id?'active':''}}"
+          wx:for="{{tabs}}" wx:for-index="index" wx:key="id"
           bindtap="switchTab" data-id="{{item.id}}">
       {{item.name}}
     </view>
   </view>
 
+  <view class="subtabs tech-panel" wx:if="{{currentTab===1}}">
+    <view class="subtab {{currentBuildingTab===item.id?'active':''}}"
+          wx:for="{{buildingTabs}}" wx:key="id"
+          bindtap="switchBuildingTab" data-id="{{item.id}}">
+      {{item.name}}
+    </view>
+  </view>
+
   <view class="gallery">
-    <view class="photo-item" wx:for="{{filteredPhotos}}" wx:key="id"
-          bindtap="previewImage" data-url="{{item.url}}">
+    <view class="photo-item tech-rise" wx:for="{{filteredPhotos}}" wx:for-index="index" wx:key="id"
+          bindtap="previewImage" data-url="{{item.url}}" style="animation-delay: {{index * 90}}ms;">
+      <view class="photo-scan tech-sweep"></view>
       <image src="{{item.url}}" mode="aspectFill"/>
       <view class="photo-desc">{{item.desc}}</view>
     </view>

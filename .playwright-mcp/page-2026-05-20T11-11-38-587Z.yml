@@ -1,0 +1,174 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - heading "杭电首页" [level=6] [ref=e4] [cursor=pointer]:
+      - link "杭电首页" [ref=e5]:
+        - /url: https://www.hdu.edu.cn/
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - link "返回新闻网首页" [ref=e9] [cursor=pointer]:
+          - /url: /news/main.htm
+          - img [ref=e10]
+        - generic [ref=e12]:
+          - paragraph [ref=e13]: 2026年05月
+          - heading "20" [level=1] [ref=e14]
+          - paragraph [ref=e15]: 星期三
+          - paragraph
+      - generic [ref=e16]:
+        - list [ref=e17]:
+          - listitem [ref=e18] [cursor=pointer]:
+            - link "新闻网" [ref=e19]:
+              - /url: http://www.hdu.edu.cn/news/main.htm
+          - listitem [ref=e20] [cursor=pointer]:
+            - link "要闻聚焦" [ref=e21]:
+              - /url: /news/hdxw/list.htm
+          - listitem [ref=e22] [cursor=pointer]:
+            - link "在线投稿" [ref=e23]:
+              - /url: http://zhanqun.hdu.edu.cn/_web/_plugs/_artContribute/web/contributeArtFrame.jsp?type=1&siteFolderId=30091&_p=YXM9MjcmdD00NTUmcD0xJm09TiY_
+          - listitem [ref=e24] [cursor=pointer]:
+            - link "在线审核" [ref=e25]:
+              - /url: http://zhanqun.hdu.edu.cn
+        - img "search" [ref=e27] [cursor=pointer]
+      - generic [ref=e28]:
+        - generic [ref=e29]:
+          - generic [ref=e30]:
+            - generic [ref=e31]:
+              - heading "要闻聚焦" [level=1] [ref=e32]
+              - heading "IMPORTANT NEWS" [level=2] [ref=e33]:
+                - generic [ref=e34]: IMPORTANT NEWS
+            - generic [ref=e36]:
+              - generic [ref=e38] [cursor=pointer]: "2025"
+              - generic [ref=e40]:
+                - generic [ref=e41] [cursor=pointer]: "1"
+                - generic [ref=e42] [cursor=pointer]: "2"
+                - generic [ref=e43] [cursor=pointer]: "3"
+                - generic [ref=e44] [cursor=pointer]: "4"
+                - generic [ref=e45] [cursor=pointer]: "5"
+                - generic [ref=e46] [cursor=pointer]: "6"
+                - generic [ref=e47] [cursor=pointer]: "7"
+                - generic [ref=e48] [cursor=pointer]: "8"
+                - generic [ref=e49] [cursor=pointer]: "9"
+                - generic [ref=e50] [cursor=pointer]: "10"
+                - generic [ref=e51] [cursor=pointer]: "11"
+                - generic [ref=e52] [cursor=pointer]: "12"
+            - list [ref=e53]:
+              - listitem [ref=e54] [cursor=pointer]:
+                - link "颜成钢教授主持成果获教育部科学... 2025-12-31":
+                  - /url: http://www.hdu.edu.cn/news/2025/1231/c7511a289283/page.htm
+                  - generic [ref=e56]: 颜成钢教授主持成果获教育部科学...
+                  - generic [ref=e57]: 2025-12-31
+              - listitem [ref=e58] [cursor=pointer]:
+                - link "我校学报首届青年编委会成立大会... 2025-12-30":
+                  - /url: http://www.hdu.edu.cn/news/2025/1229/c7511a289225/page.htm
+                  - generic [ref=e60]: 我校学报首届青年编委会成立大会...
+                  - generic [ref=e61]: 2025-12-30
+              - listitem [ref=e62] [cursor=pointer]:
+                - link "学校发布全面加强党的领导提高办... 2025-12-25":
+                  - /url: http://www.hdu.edu.cn/news/2025/1225/c7511a289166/page.htm
+                  - generic [ref=e64]: 学校发布全面加强党的领导提高办...
+                  - generic [ref=e65]: 2025-12-25
+              - listitem [ref=e66] [cursor=pointer]:
+                - link "我校协办的第八届CCF中国区块链... 2025-12-25":
+                  - /url: http://www.hdu.edu.cn/news/2025/1223/c7511a289112/page.htm
+                  - generic [ref=e68]: 我校协办的第八届CCF中国区块链...
+                  - generic [ref=e69]: 2025-12-25
+              - listitem [ref=e70] [cursor=pointer]:
+                - link "我校成功入选2025年度全国高校后... 2025-12-25":
+                  - /url: http://www.hdu.edu.cn/news/2025/1225/c7511a289143/page.htm
+                  - generic [ref=e72]: 我校成功入选2025年度全国高校后...
+                  - generic [ref=e73]: 2025-12-25
+              - listitem [ref=e74] [cursor=pointer]:
+                - link "我校在第十六届浙江省大学生职业... 2025-12-22":
+                  - /url: http://www.hdu.edu.cn/news/2025/1222/c7511a289087/page.htm
+                  - generic [ref=e76]: 我校在第十六届浙江省大学生职业...
+                  - generic [ref=e77]: 2025-12-22
+              - listitem [ref=e78] [cursor=pointer]:
+                - link "浙江恒强科技股份有限公司董事长... 2025-12-22":
+                  - /url: http://www.hdu.edu.cn/news/2025/1222/c7511a289078/page.htm
+                  - generic [ref=e80]: 浙江恒强科技股份有限公司董事长...
+                  - generic [ref=e81]: 2025-12-22
+              - listitem [ref=e82] [cursor=pointer]:
+                - link "塞浦路斯理工大学孔子学院成功举... 2025-12-18":
+                  - /url: http://www.hdu.edu.cn/news/2025/1216/c7511a288600/page.htm
+                  - generic [ref=e84]: 塞浦路斯理工大学孔子学院成功举...
+                  - generic [ref=e85]: 2025-12-18
+              - listitem [ref=e86] [cursor=pointer]:
+                - link "我校在2025年浙江省大学生艺术节... 2025-12-18":
+                  - /url: http://www.hdu.edu.cn/news/2025/1217/c7511a288620/page.htm
+                  - generic [ref=e88]: 我校在2025年浙江省大学生艺术节...
+                  - generic [ref=e89]: 2025-12-18
+              - listitem [ref=e90] [cursor=pointer]:
+                - link "首发！我校研究生在物理学顶级期... 2025-12-16":
+                  - /url: http://www.hdu.edu.cn/news/2025/1215/c7511a288587/page.htm
+                  - generic [ref=e92]: 首发！我校研究生在物理学顶级期...
+                  - generic [ref=e93]: 2025-12-16
+              - listitem [ref=e94] [cursor=pointer]:
+                - link "世界同心 杭电同行——杭州电子科... 2025-12-15":
+                  - /url: http://www.hdu.edu.cn/news/2025/1215/c7511a288593/page.htm
+                  - generic [ref=e96]: 世界同心 杭电同行——杭州电子科...
+                  - generic [ref=e97]: 2025-12-15
+              - listitem [ref=e98] [cursor=pointer]:
+                - link "浙江省人工智能学院第一届奇点论... 2025-12-12":
+                  - /url: http://www.hdu.edu.cn/news/2025/1209/c7511a288323/page.htm
+                  - generic [ref=e100]: 浙江省人工智能学院第一届奇点论...
+                  - generic [ref=e101]: 2025-12-12
+              - listitem [ref=e102] [cursor=pointer]:
+                - link "我校信息安全、信息对抗技术专业... 2025-12-11":
+                  - /url: http://www.hdu.edu.cn/news/2025/1211/c7511a288377/page.htm
+                  - generic [ref=e104]: 我校信息安全、信息对抗技术专业...
+                  - generic [ref=e105]: 2025-12-11
+            - list [ref=e108]:
+              - listitem [ref=e109] [cursor=pointer]: "1"
+              - listitem [ref=e110] [cursor=pointer]: "2"
+              - listitem [ref=e111] [cursor=pointer]: "3"
+              - listitem [ref=e112] [cursor=pointer]: "4"
+              - listitem [ref=e113] [cursor=pointer]: "5"
+              - listitem [ref=e114] [cursor=pointer]: 下页
+          - generic [ref=e115]:
+            - generic [ref=e116]:
+              - img [ref=e117]
+              - paragraph [ref=e118]:
+                - link "杭州电子科技大学官方微信" [ref=e119] [cursor=pointer]:
+                  - /url: /news/2022/0916/c7529a157839/page.htm
+            - generic [ref=e120]:
+              - img [ref=e121]
+              - paragraph [ref=e122]:
+                - link "杭州电子科技大学官方微博" [ref=e123] [cursor=pointer]:
+                  - /url: /news/2022/0916/c7529a157821/page.htm
+        - generic [ref=e124]:
+          - generic [ref=e125]: 点赞杭电人丨姚英彪：学生心目中当之无愧的好导师
+          - generic [ref=e126]: 作者： 来源：学校新闻部1 时间：2019-05-15
+          - generic [ref=e128]:
+            - paragraph [ref=e129]: “我们通信，有个人很酷，三头六臂，刀枪不入。他的思路，从没停步，带着我们长成大树”“我的老师，是个神话，搞定学术，绝代风华，就算有天你掉光了牙，依旧可以续写通信神话”“向老师大声地呼唤说声我爱你，向那珍惜的时光说声谢谢你……”在校第二届研究生“我心目中的好导师”评选大会现场，台上的学生正通过改编的歌曲串烧，讲述着与导师之间的感人故事。歌声虽粗犷原生态，却让人印象深刻。而坐在台下一角的主人公，通信工程学院姚英彪教授出神地看着舞台上的表演，瞬间红了眼眶。
+            - paragraph [ref=e130]: “很感谢同学们，这个评选会不需要我们导师上台，仅由学生进行现场展示，他们一直到上台前还特地跟我保密，没想到准备了这么大一份礼物。”
+            - paragraph [ref=e131]: 最终，姚英彪毫无悬念地被评为“我心目中的好导师”。
+            - paragraph [ref=e132]:
+              - img "QQ图片20190515150104.jpg" [ref=e133]
+            - paragraph [ref=e134]:
+              - strong [ref=e135]: 师者，传道授业解惑，尽显担当
+            - paragraph [ref=e136]: 通信工程学院206室是姚英彪学生工作室所在地，里面满满当当地摆着18张桌椅。采访当天，推开206室的大门，姚英彪正忙着为学生指导论文，神情专注地与学生探讨相关课题。其他学生或查找文献，或敲代码，忙碌又不失秩序。
+            - paragraph [ref=e137]: 姚英彪注重对学生科研能力的培养，这时候的他，更像是一位严父。研究生甫一入学，姚英彪就让他们明晰目标，提升自己的科研能力。“科研是研究生阶段的一项重要任务，一定要将学习专业知识与科学研究结合起来，脚踏实地，保持耐心与信心，最后定能厚积薄发，收获成果。”
+            - paragraph [ref=e138]: 为了能第一时间当面指导学生，姚英彪多年来保持早上八点半到办公室，晚上八点半起身回家的工作节奏，雷打不动，多年来已发表SCI论文等40余篇。“当老师后，我们会不由自主地对学生提要求、给建议，但是另一方面，老师也要反思，是不是自己在相应方面也是这般做的，有没有树立好榜样。”
+            - paragraph [ref=e139]: 采访中，他特别引用了《论语》中草偃风从的典故：“君子之德风，小人之德草，草上之风，必偃。”“这句话虽指的是治国理政，但同样适用于干事创业，毕竟大时代与小日子间也息息相关。前面领路人带好头了，整支队伍不会差到哪里去。”
+            - paragraph [ref=e140]: 在注重科研的同时，姚英彪也积极投身学科建设与教学改革：重新修订信息工程专业培养计划，凝练出“大数据分析与物联网”的专业特色；牵头建立“TD-LTE移动通信实训平台”省财政专项实验室；主讲的“嵌入式系统”入选浙江省课堂教学改革课程……
+            - paragraph [ref=e141]: 作为通信网络团队负责人，姚英彪将党建融入学科建设，努力提升团队凝聚力。团队成立之初，由于各个成员的研究方向不一致，团队缺乏凝聚力。针对这种情况，他充分利用支部“三会一课”，让大家逐步认识到团队齐心协力的重要性，并凝练出雾计算与雾网络的前沿方向。如今，团队每周开展学术讨论，集思广益，文章相互支撑，项目一起申报，团队成员普遍感觉“有根”了，很有归属感。“教学和科研本就是高校教师的职责所在，在自己的能力范围内理应做到问心无愧。”
+            - paragraph [ref=e142]:
+              - img "2.jpg" [ref=e143]
+            - paragraph [ref=e144]: 2017年年底，姚英彪的爱人不幸患上特发性黄斑裂孔，刚出生没多久的二娃也因肺炎住院，病情危急到医院下发了病危通知书。彼时，作为通信工程学院工会主席的姚英彪除了繁重的科研教学工作外，还忙着牵头组织、排练学院的迎新晚会，可谓“分身乏术”。“家人病重，我当时也很焦虑，脑袋一片空白。但回过神来就意识到干着急无济于事，最重要的是要安排解决好迎面而来的各种问题，平衡好工作和生活。越是在关键时刻，越要从容应对，将后面的事情安排落实到位，扛起身上的担子。”积极乐观的姚英彪有颗“强心脏”。
+            - paragraph [ref=e145]: “忙归忙，但有序安排好时间，逐条理顺，把复杂的事情简单化，把简单的事情努力做好就比较笃定了。”说完，姚英彪咧嘴大笑，露出标志性的温暖笑容。
+            - paragraph [ref=e146]:
+              - strong [ref=e147]: 友者，与学生平等交流，真心换真心
+            - paragraph [ref=e148]: 姚英彪对学生采取“放养型”管理。“杭电的研究生，素质都挺不错，以严格的制度考核来管理学生其实意义不大，我更重视培养学生的自律能力和责任心。事实上，我对他们挺有底气的。前面的师兄师姐这么做的，一届届传承下来，上行下效，团队氛围就这么形成了。”
+            - paragraph [ref=e149]: 他坦言，如果仅仅是以老师的身份来要求指导学生，那“未免太失败”。“权威不是这样树立起来的，我更愿意设身处地为大家着想，以真心换真心，做学生的良师益友。”
+            - paragraph [ref=e150]: “该严的时候严，该松的时候松。”“是我遇到过的最没架子的老师。”“80%的枣子+20%的棒子”……问及对姚英彪的印象，学生们你一言我一语，纷纷举手示意要“大爆料”，工作室里顿时一片欢声笑语。
+            - paragraph [ref=e151]: 姚英彪学生团队的良好氛围在通信工程学院尽人皆知。到了饭点，工作室会全员出动，整整霸占美食城两张大长桌，一起嬉笑打闹。“姚老师对我们是八分甜枣两分棒子，我们的自我要求也是八分学习，两分放松。在实验室里几乎不聊天，大部分时间都埋头科研，绝不影响其他人。但饭点休息时就会很闹腾很放松，很喜欢这样的氛围。”2018级信息与通信工程专业研究生范金龙说到，“等我毕业时，最难忘的肯定是我们实验室的好氛围。我们也有责任呵护好它，传给下一届师弟师妹。”
+            - paragraph [ref=e152]:
+              - img "ppt上下载的.jpg" [ref=e153]
+            - paragraph [ref=e154]: 私下里，学生更愿意称姚英彪为“彪哥”。“彪哥在科研上对我们很严格，也很关心我们的日常生活和发展规划，我们很愿意跟他谈心。”2017级信息与通信工程专业研究生侯彤彤说到。她透露，遇到科研拦路虎，大家讨论未果后会第一时间向姚英彪请教；碰到感情问题，也会毫不犹豫地向姚英彪寻求帮助。而这时候的姚英彪就好似一个“爱情军师”，帮学生理顺思路，抽丝剥茧找到双方矛盾最关键的地方，并酌情给出中肯的建议。“很受用，这时候一个平易近人的长者及时地给予建议，对我们走出感情困境，加快心智成熟大有益处。”实验室里一个不好意思透露姓名的男生诚恳地说。
+            - paragraph [ref=e155]: 一个已毕业的学生，单亲家庭长大，研三时面临着撰写毕业论文、找工作、从小陪到大的父亲病重三重压力，情绪一度崩溃。姚英彪第一时间发现学生的异常情绪，主动询问缘由并进行及时疏导，帮助学生平衡好各方面，并持续关注进展情况，令其顺利渡过难关。“很感谢彪哥，如果没有他的悉心照顾和帮助，我真的不知道能不能熬过那段日子。”
+            - paragraph [ref=e156]: 采访中，姚英彪频频说起自己只是一个很平凡的老师，没有多少成绩和亮点，只是做好本职工作而已。然而，他身上的强烈责任心，对教学科研工作的极大热情，待学生的一颗真心，无不令人感佩，恰似一盏好茶，粗看平淡无奇，细细品味却甘甜芬芳。（校新闻中心/文 王育涵/摄）
+  - generic [ref=e158]:
+    - link [ref=e160] [cursor=pointer]:
+      - /url: https://bszs.conac.cn/sitename?method=show&id=DD1223430023BDB0E05310291AAC6BD6
+      - img [ref=e161]
+    - paragraph [ref=e162]: 杭州电子科技大学党委宣传部 版权所有 杭州电子科技大学新闻中心维护
+    - paragraph [ref=e163]: 浙ICP备12028388号 推荐使用Google浏览器、火狐浏览器、360浏览器（极速模式）

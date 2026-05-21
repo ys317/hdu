@@ -1,0 +1,519 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - link "返回杭州电子科技大学首页" [ref=e8] [cursor=pointer]:
+      - /url: /main.htm
+    - generic [ref=e9]:
+      - list [ref=e13]:
+        - listitem [ref=e14]:
+          - link "校情纵览" [ref=e15] [cursor=pointer]:
+            - /url: "#"
+          - emphasis [ref=e16]
+          - list:
+            - listitem:
+              - link "学校简介":
+                - /url: /659/list.htm
+            - listitem:
+              - link "学校章程":
+                - /url: /_upload/article/files/b7/db/2cf6e5fe45638547b298779cf9ae/1c0332a8-d71e-49dc-a3c5-0a835c299a4b.pdf
+            - listitem:
+              - link "机构设置":
+                - /url: /jgsz/list.htm
+              - emphasis
+            - listitem:
+              - link "现任领导":
+                - /url: /662/list.htm
+            - listitem:
+              - link "历任领导":
+                - /url: /663/list.htm
+              - emphasis
+            - listitem:
+              - link "校史沿革":
+                - /url: /664/list.htm
+            - listitem:
+              - link "校园胜景":
+                - /url: http://www.hdu.edu.cn/773/list.htm
+              - emphasis
+            - listitem:
+              - link "校标规范":
+                - /url: /666/list.htm
+        - listitem [ref=e17]:
+          - link "杭电新闻" [ref=e18] [cursor=pointer]:
+            - /url: https://www.hdu.edu.cn/news/zhxw/list.htm
+        - listitem [ref=e19]:
+          - link "人才培养" [ref=e20] [cursor=pointer]:
+            - /url: "#"
+          - emphasis [ref=e21]
+          - list:
+            - listitem:
+              - link "本科生教育":
+                - /url: http://jwc.hdu.edu.cn/
+            - listitem:
+              - link "研究生教育":
+                - /url: http://grs.hdu.edu.cn/
+            - listitem:
+              - link "留学生教育":
+                - /url: https://intedu.hdu.edu.cn/
+            - listitem:
+              - link "继续教育":
+                - /url: http://www.hdu.edu.cn/13333/list.htm
+        - listitem [ref=e22]:
+          - link "科学研究" [ref=e23] [cursor=pointer]:
+            - /url: "#"
+          - emphasis [ref=e24]
+          - list:
+            - listitem:
+              - link "科技概况":
+                - /url: http://research.hdu.edu.cn/
+            - listitem:
+              - link "杭电学报":
+                - /url: https://journal.hdu.edu.cn
+        - listitem [ref=e25]:
+          - link "师资队伍" [ref=e26] [cursor=pointer]:
+            - /url: "#"
+          - emphasis [ref=e27]
+          - list:
+            - listitem:
+              - link "队伍建设":
+                - /url: http://renshi.hdu.edu.cn/
+            - listitem:
+              - link "教师个人主页系统":
+                - /url: http://faculty.hdu.edu.cn/
+        - listitem [ref=e28]:
+          - link "招生就业" [ref=e29] [cursor=pointer]:
+            - /url: "#"
+          - emphasis [ref=e30]
+          - list:
+            - listitem:
+              - link "本科生招生":
+                - /url: http://zhaosheng.hdu.edu.cn/
+            - listitem:
+              - link "研究生招生":
+                - /url: https://grs.hdu.edu.cn/
+            - listitem:
+              - link "就业网":
+                - /url: https://job.hdu.edu.cn/
+        - listitem [ref=e31]:
+          - link "合作交流" [ref=e32] [cursor=pointer]:
+            - /url: "#"
+          - emphasis [ref=e33]
+          - list:
+            - listitem:
+              - link "国际合作交流":
+                - /url: http://foreign.hdu.edu.cn/
+            - listitem:
+              - link "国际教育学院":
+                - /url: http://www.hdu.edu.cn/13332/list.htm
+            - listitem:
+              - link "校友总会":
+                - /url: http://alumni.hdu.edu.cn/
+            - listitem:
+              - link "基金会":
+                - /url: http://jjh.hdu.edu.cn/
+        - listitem [ref=e34]:
+          - link "服务信息" [ref=e35] [cursor=pointer]:
+            - /url: "#"
+          - emphasis [ref=e36]
+          - list:
+            - listitem:
+              - link "图书馆":
+                - /url: https://tsg.hdu.edu.cn
+            - listitem:
+              - link "档案馆":
+                - /url: https://dangan.hdu.edu.cn/
+            - listitem:
+              - link "校医院":
+                - /url: http://xyy.hdu.edu.cn/
+            - listitem:
+              - link "杭州文一教育发展有限公司":
+                - /url: http://hq.hdu.edu.cn/
+            - listitem:
+              - link "安全保卫":
+                - /url: https://baowei.hdu.edu.cn/
+            - listitem:
+              - link "办公电话":
+                - /url: http://www.hdu.edu.cn/7504/list.htm
+              - emphasis
+            - listitem:
+              - link "工作班车":
+                - /url: http://www.hdu.edu.cn/768/list.htm
+              - emphasis
+            - listitem:
+              - link "上课时间":
+                - /url: http://www.hdu.edu.cn/770/list.htm
+              - emphasis
+        - listitem [ref=e37]:
+          - link "数字杭电" [ref=e38] [cursor=pointer]:
+            - /url: https://i.hdu.edu.cn/
+      - link "EN" [ref=e40] [cursor=pointer]:
+        - /url: https://en.hdu.edu.cn/
+  - list [ref=e47]:
+    - listitem [ref=e48]:
+      - link "校情纵览" [ref=e49] [cursor=pointer]:
+        - /url: "#"
+      - emphasis [ref=e50]
+      - list [ref=e51]:
+        - listitem [ref=e52]:
+          - link "学校简介" [ref=e53] [cursor=pointer]:
+            - /url: /659/list.htm
+        - listitem [ref=e54]:
+          - link "学校章程" [ref=e55] [cursor=pointer]:
+            - /url: /_upload/article/files/b7/db/2cf6e5fe45638547b298779cf9ae/1c0332a8-d71e-49dc-a3c5-0a835c299a4b.pdf
+        - listitem [ref=e56]:
+          - link "机构设置" [ref=e57] [cursor=pointer]:
+            - /url: /jgsz/list.htm
+          - emphasis [ref=e58]
+        - listitem [ref=e59]:
+          - link "现任领导" [ref=e60] [cursor=pointer]:
+            - /url: /662/list.htm
+        - listitem [ref=e61]:
+          - link "历任领导" [ref=e62] [cursor=pointer]:
+            - /url: /663/list.htm
+          - emphasis [ref=e63]
+        - listitem [ref=e64]:
+          - link "校史沿革" [ref=e65] [cursor=pointer]:
+            - /url: /664/list.htm
+        - listitem [ref=e66]:
+          - link "校园胜景" [ref=e67] [cursor=pointer]:
+            - /url: http://www.hdu.edu.cn/773/list.htm
+          - emphasis [ref=e68]
+        - listitem [ref=e69]:
+          - link "校标规范" [ref=e70] [cursor=pointer]:
+            - /url: /666/list.htm
+    - listitem [ref=e71]:
+      - link "杭电新闻" [ref=e72] [cursor=pointer]:
+        - /url: https://www.hdu.edu.cn/news/zhxw/list.htm
+    - listitem [ref=e73]:
+      - link "人才培养" [ref=e74] [cursor=pointer]:
+        - /url: "#"
+      - emphasis [ref=e75]
+      - list [ref=e76]:
+        - listitem [ref=e77]:
+          - link "本科生教育" [ref=e78] [cursor=pointer]:
+            - /url: http://jwc.hdu.edu.cn/
+        - listitem [ref=e79]:
+          - link "研究生教育" [ref=e80] [cursor=pointer]:
+            - /url: http://grs.hdu.edu.cn/
+        - listitem [ref=e81]:
+          - link "留学生教育" [ref=e82] [cursor=pointer]:
+            - /url: https://intedu.hdu.edu.cn/
+        - listitem [ref=e83]:
+          - link "继续教育" [ref=e84] [cursor=pointer]:
+            - /url: http://www.hdu.edu.cn/13333/list.htm
+    - listitem [ref=e85]:
+      - link "科学研究" [ref=e86] [cursor=pointer]:
+        - /url: "#"
+      - emphasis [ref=e87]
+      - list [ref=e88]:
+        - listitem [ref=e89]:
+          - link "科技概况" [ref=e90] [cursor=pointer]:
+            - /url: http://research.hdu.edu.cn/
+        - listitem [ref=e91]:
+          - link "杭电学报" [ref=e92] [cursor=pointer]:
+            - /url: https://journal.hdu.edu.cn
+    - listitem [ref=e93]:
+      - link "师资队伍" [ref=e94] [cursor=pointer]:
+        - /url: "#"
+      - emphasis [ref=e95]
+      - list [ref=e96]:
+        - listitem [ref=e97]:
+          - link "队伍建设" [ref=e98] [cursor=pointer]:
+            - /url: http://renshi.hdu.edu.cn/
+        - listitem [ref=e99]:
+          - link "教师个人主页系统" [ref=e100] [cursor=pointer]:
+            - /url: http://faculty.hdu.edu.cn/
+    - listitem [ref=e101]:
+      - link "招生就业" [ref=e102] [cursor=pointer]:
+        - /url: "#"
+      - emphasis [ref=e103]
+      - list [ref=e104]:
+        - listitem [ref=e105]:
+          - link "本科生招生" [ref=e106] [cursor=pointer]:
+            - /url: http://zhaosheng.hdu.edu.cn/
+        - listitem [ref=e107]:
+          - link "研究生招生" [ref=e108] [cursor=pointer]:
+            - /url: https://grs.hdu.edu.cn/
+        - listitem [ref=e109]:
+          - link "就业网" [ref=e110] [cursor=pointer]:
+            - /url: https://job.hdu.edu.cn/
+    - listitem [ref=e111]:
+      - link "合作交流" [ref=e112] [cursor=pointer]:
+        - /url: "#"
+      - emphasis [ref=e113]
+      - list [ref=e114]:
+        - listitem [ref=e115]:
+          - link "国际合作交流" [ref=e116] [cursor=pointer]:
+            - /url: http://foreign.hdu.edu.cn/
+        - listitem [ref=e117]:
+          - link "国际教育学院" [ref=e118] [cursor=pointer]:
+            - /url: http://www.hdu.edu.cn/13332/list.htm
+        - listitem [ref=e119]:
+          - link "校友总会" [ref=e120] [cursor=pointer]:
+            - /url: http://alumni.hdu.edu.cn/
+        - listitem [ref=e121]:
+          - link "基金会" [ref=e122] [cursor=pointer]:
+            - /url: http://jjh.hdu.edu.cn/
+    - listitem [ref=e123]:
+      - link "服务信息" [ref=e124] [cursor=pointer]:
+        - /url: "#"
+      - emphasis [ref=e125]
+      - list [ref=e126]:
+        - listitem [ref=e127]:
+          - link "图书馆" [ref=e128] [cursor=pointer]:
+            - /url: https://tsg.hdu.edu.cn
+        - listitem [ref=e129]:
+          - link "档案馆" [ref=e130] [cursor=pointer]:
+            - /url: https://dangan.hdu.edu.cn/
+        - listitem [ref=e131]:
+          - link "校医院" [ref=e132] [cursor=pointer]:
+            - /url: http://xyy.hdu.edu.cn/
+        - listitem [ref=e133]:
+          - link "杭州文一教育发展有限公司" [ref=e134] [cursor=pointer]:
+            - /url: http://hq.hdu.edu.cn/
+        - listitem [ref=e135]:
+          - link "安全保卫" [ref=e136] [cursor=pointer]:
+            - /url: https://baowei.hdu.edu.cn/
+        - listitem [ref=e137]:
+          - link "办公电话" [ref=e138] [cursor=pointer]:
+            - /url: http://www.hdu.edu.cn/7504/list.htm
+          - emphasis [ref=e139]
+        - listitem [ref=e140]:
+          - link "工作班车" [ref=e141] [cursor=pointer]:
+            - /url: http://www.hdu.edu.cn/768/list.htm
+          - emphasis [ref=e142]
+        - listitem [ref=e143]:
+          - link "上课时间" [ref=e144] [cursor=pointer]:
+            - /url: http://www.hdu.edu.cn/770/list.htm
+          - emphasis [ref=e145]
+    - listitem [ref=e146]:
+      - link "数字杭电" [ref=e147] [cursor=pointer]:
+        - /url: https://i.hdu.edu.cn/
+  - text: 搜索 搜索
+  - generic [ref=e151]:
+    - generic [ref=e153]:
+      - heading "校情纵览" [level=3] [ref=e154]:
+        - generic [ref=e155]: 校情纵览
+      - generic [ref=e156]:
+        - generic [ref=e157]: "-"
+        - link "首页" [ref=e158] [cursor=pointer]:
+          - /url: /main.htm
+        - generic [ref=e159]: "-"
+        - link "校情纵览" [ref=e160] [cursor=pointer]:
+          - /url: "#"
+        - generic [ref=e161]: "-"
+        - link "校园胜景" [ref=e162] [cursor=pointer]:
+          - /url: http://www.hdu.edu.cn/773/list.htm
+        - generic [ref=e163]: "-"
+        - link "杭州电子科技大学校园胜景(东岳校区)" [ref=e164] [cursor=pointer]:
+          - /url: /775/list.htm
+    - list [ref=e168]:
+      - listitem [ref=e169]:
+        - link "学校简介" [ref=e170] [cursor=pointer]:
+          - /url: /659/list.htm
+          - generic [ref=e171]: 学校简介
+      - listitem [ref=e172]:
+        - link "学校章程" [ref=e173] [cursor=pointer]:
+          - /url: /_upload/article/files/b7/db/2cf6e5fe45638547b298779cf9ae/1c0332a8-d71e-49dc-a3c5-0a835c299a4b.pdf
+          - generic [ref=e174]: 学校章程
+      - listitem [ref=e175]:
+        - link "机构设置" [ref=e176] [cursor=pointer]:
+          - /url: /jgsz/list.htm
+          - generic [ref=e177]: 机构设置
+      - listitem [ref=e178]:
+        - link "现任领导" [ref=e179] [cursor=pointer]:
+          - /url: /662/list.htm
+          - generic [ref=e180]: 现任领导
+      - listitem [ref=e181]:
+        - link "历任领导" [ref=e182] [cursor=pointer]:
+          - /url: /663/list.htm
+          - generic [ref=e183]: 历任领导
+      - listitem [ref=e184]:
+        - link "校史沿革" [ref=e185] [cursor=pointer]:
+          - /url: /664/list.htm
+          - generic [ref=e186]: 校史沿革
+      - listitem [ref=e187]:
+        - link "校园胜景" [ref=e188] [cursor=pointer]:
+          - /url: http://www.hdu.edu.cn/773/list.htm
+          - generic [ref=e189]: 校园胜景
+      - listitem [ref=e190]:
+        - link "校标规范" [ref=e191] [cursor=pointer]:
+          - /url: /666/list.htm
+          - generic [ref=e192]: 校标规范
+  - generic [ref=e195]:
+    - generic [ref=e196]: 校园胜景
+    - generic [ref=e197]:
+      - list [ref=e199]:
+        - listitem [ref=e200]:
+          - link "杭州电子科技大学校园胜景(下沙校区)" [ref=e201] [cursor=pointer]:
+            - /url: /773/list.htm
+        - listitem [ref=e202]:
+          - link "杭州电子科技大学校园胜景(文一校区)" [ref=e203] [cursor=pointer]:
+            - /url: /774/list.htm
+        - listitem [ref=e204]:
+          - link "杭州电子科技大学校园胜景(东岳校区)" [ref=e205] [cursor=pointer]:
+            - /url: /775/list.htm
+      - list [ref=e208]:
+        - listitem [ref=e209]:
+          - generic [ref=e210]:
+            - link:
+              - /url: /2025/0903/c775a285134/page.htm
+              - img [ref=e211] [cursor=pointer]
+          - link "海洋大楼" [ref=e214] [cursor=pointer]:
+            - /url: /2025/0903/c775a285134/page.htm
+        - listitem [ref=e215]:
+          - generic [ref=e216]:
+            - link:
+              - /url: /2025/0902/c775a285125/page.htm
+              - img [ref=e217] [cursor=pointer]
+          - link "生活区" [ref=e220] [cursor=pointer]:
+            - /url: /2025/0902/c775a285125/page.htm
+        - listitem [ref=e221]:
+          - generic [ref=e222]:
+            - link:
+              - /url: /2025/0902/c775a285123/page.htm
+              - img [ref=e223] [cursor=pointer]
+          - link "培训教学" [ref=e226] [cursor=pointer]:
+            - /url: /2025/0902/c775a285123/page.htm
+        - listitem [ref=e227]:
+          - generic [ref=e228]:
+            - link:
+              - /url: /2025/0902/c775a285122/page.htm
+              - img [ref=e229] [cursor=pointer]
+          - link "东岳校区全景" [ref=e232] [cursor=pointer]:
+            - /url: /2025/0902/c775a285122/page.htm
+        - listitem [ref=e233]:
+          - generic [ref=e234]:
+            - link:
+              - /url: /2017/0817/c775a34812/page.htm
+              - img [ref=e235] [cursor=pointer]
+          - link "教学区" [ref=e238] [cursor=pointer]:
+            - /url: /2017/0817/c775a34812/page.htm
+        - listitem [ref=e239]:
+          - generic [ref=e240]:
+            - link:
+              - /url: /2017/0817/c775a34811/page.htm
+              - img [ref=e241] [cursor=pointer]
+          - link "怡然亭" [ref=e244] [cursor=pointer]:
+            - /url: /2017/0817/c775a34811/page.htm
+        - listitem [ref=e245]:
+          - generic [ref=e246]:
+            - link:
+              - /url: /2017/0817/c775a34810/page.htm
+              - img [ref=e247] [cursor=pointer]
+          - link "怡然亭" [ref=e250] [cursor=pointer]:
+            - /url: /2017/0817/c775a34810/page.htm
+        - listitem [ref=e251]:
+          - generic [ref=e252]:
+            - link:
+              - /url: /2017/0817/c775a34809/page.htm
+              - img [ref=e253] [cursor=pointer]
+          - link "东岳校区鸟瞰图" [ref=e256] [cursor=pointer]:
+            - /url: /2017/0817/c775a34809/page.htm
+        - listitem [ref=e257]:
+          - generic [ref=e258]:
+            - link:
+              - /url: /2017/0817/c775a34808/page.htm
+              - img [ref=e259] [cursor=pointer]
+          - link "浙江保密学院" [ref=e262] [cursor=pointer]:
+            - /url: /2017/0817/c775a34808/page.htm
+        - listitem [ref=e263]:
+          - generic [ref=e264]:
+            - link:
+              - /url: /2017/0817/c775a34807/page.htm
+              - img [ref=e265] [cursor=pointer]
+          - link "校园一角" [ref=e268] [cursor=pointer]:
+            - /url: /2017/0817/c775a34807/page.htm
+        - listitem [ref=e269]:
+          - generic [ref=e270]:
+            - link:
+              - /url: /2017/0817/c775a34806/page.htm
+              - img [ref=e271] [cursor=pointer]
+          - link "礼贤楼" [ref=e274] [cursor=pointer]:
+            - /url: /2017/0817/c775a34806/page.htm
+        - listitem [ref=e275]:
+          - generic [ref=e276]:
+            - link:
+              - /url: /2017/0817/c775a34805/page.htm
+              - img [ref=e277] [cursor=pointer]
+          - link "校园小品" [ref=e280] [cursor=pointer]:
+            - /url: /2017/0817/c775a34805/page.htm
+  - generic [ref=e281]:
+    - list [ref=e284]:
+      - listitem [ref=e285]:
+        - link "数字杭电" [ref=e286] [cursor=pointer]:
+          - /url: https://i.hdu.edu.cn/
+          - generic [ref=e287]: 数字杭电
+      - listitem [ref=e288]:
+        - link "综合服务网" [ref=e289] [cursor=pointer]:
+          - /url: https://web.hdu.edu.cn
+          - generic [ref=e290]: 综合服务网
+      - listitem [ref=e291]:
+        - link "VPN登录" [ref=e292] [cursor=pointer]:
+          - /url: https://webvpn.hdu.edu.cn/
+          - generic [ref=e293]: VPN登录
+      - listitem [ref=e294]:
+        - link "电子邮件" [ref=e295] [cursor=pointer]:
+          - /url: https://mail.hdu.edu.cn/
+          - generic [ref=e296]: 电子邮件
+      - listitem [ref=e297]:
+        - link "办事指南" [ref=e298] [cursor=pointer]:
+          - /url: https://shall.hdu.edu.cn/
+          - generic [ref=e299]: 办事指南
+      - listitem [ref=e300]:
+        - link "信息公开" [ref=e301] [cursor=pointer]:
+          - /url: http://xxgk.hdu.edu.cn/
+          - generic [ref=e302]: 信息公开
+      - listitem [ref=e303]:
+        - link "招标采购" [ref=e304] [cursor=pointer]:
+          - /url: http://www.hdu.edu.cn/13468/list.htm
+          - generic [ref=e305]: 招标采购
+      - listitem [ref=e306]:
+        - link "领导信箱" [ref=e307] [cursor=pointer]:
+          - /url: mailto:president@hdu.edu.cn
+          - generic [ref=e308]: 领导信箱
+      - listitem [ref=e309]:
+        - link "图书馆" [ref=e310] [cursor=pointer]:
+          - /url: https://www.hdu.edu.cn/13816/list.htm
+          - generic [ref=e311]: 图书馆
+      - listitem [ref=e312]:
+        - link "校报" [ref=e313] [cursor=pointer]:
+          - /url: "https://hdu.ihwrm.com/ "
+          - generic [ref=e314]: 校报
+      - listitem [ref=e315]:
+        - link "在线投稿" [ref=e316] [cursor=pointer]:
+          - /url: http://zhanqun.hdu.edu.cn:80/_web/_custom/hdu/_artContribute/web/contributeArtFrame.jsp?type=1&siteFolderId=30091&_p=YXM9MjcmdD00NTUmcD0xJm09TiY_
+          - generic [ref=e317]: 在线投稿
+      - listitem [ref=e318]:
+        - link "在线审核" [ref=e319] [cursor=pointer]:
+          - /url: http://zhanqun.hdu.edu.cn
+          - generic [ref=e320]: 在线审核
+      - listitem [ref=e321]:
+        - link "微信公众号" [ref=e322] [cursor=pointer]:
+          - /url: /2024/0717/c11553a267536/page.htm
+          - generic [ref=e323]: 微信公众号
+    - generic [ref=e326]:
+      - list [ref=e328]:
+        - listitem [ref=e329]:
+          - link "浙江省人民政府" [ref=e331] [cursor=pointer]:
+            - /url: http://www.zj.gov.cn/
+        - listitem [ref=e332]:
+          - link "教育部" [ref=e334] [cursor=pointer]:
+            - /url: http://www.moe.gov.cn/
+        - listitem [ref=e335]:
+          - link "工业和信息化部" [ref=e337] [cursor=pointer]:
+            - /url: http://www.miit.gov.cn/
+        - listitem [ref=e338]:
+          - link "浙江省教育厅" [ref=e340] [cursor=pointer]:
+            - /url: http://jyt.zj.gov.cn/
+        - listitem [ref=e341]:
+          - link "省国防科工办" [ref=e343] [cursor=pointer]:
+            - /url: /2017/0815/c734a34298/page.htm
+        - listitem [ref=e344]:
+          - link "杭州市钱塘区人民政府" [ref=e346] [cursor=pointer]:
+            - /url: http://qt.hangzhou.gov.cn/
+      - paragraph [ref=e348]:
+        - text: Copyright © 2024 All Rights Reserved 中国・浙江・杭州 浙ICP备12028388号-2.
+        - link "浙公网安备34030002000595号" [ref=e350] [cursor=pointer]:
+          - /url: https://beian.miit.gov.cn/
+        - link [ref=e352] [cursor=pointer]:
+          - /url: https://bszs.conac.cn/sitename?method=show&id=DD1223430023BDB0E05310291AAC6BD6
+          - img [ref=e353]

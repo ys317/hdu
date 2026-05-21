@@ -1,0 +1,162 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - paragraph [ref=e5]:
+        - link "杭电官网" [ref=e6] [cursor=pointer]:
+          - /url: http://www.hdu.edu.cn
+      - paragraph
+    - img [ref=e8]
+    - list [ref=e10]:
+      - listitem [ref=e11]:
+        - link "首页" [ref=e12] [cursor=pointer]:
+          - /url: /
+      - listitem [ref=e13]:
+        - link "学校介绍" [ref=e14] [cursor=pointer]:
+          - /url: "#"
+      - listitem [ref=e15]:
+        - link "报考指南" [ref=e16] [cursor=pointer]:
+          - /url: "#"
+      - listitem [ref=e17]:
+        - link "招考动态" [ref=e18] [cursor=pointer]:
+          - /url: "#"
+      - listitem [ref=e19]:
+        - link "招生咨询" [ref=e20] [cursor=pointer]:
+          - /url: "#"
+      - listitem [ref=e21]:
+        - link "学生发展" [ref=e22] [cursor=pointer]:
+          - /url: "#"
+      - listitem [ref=e23]:
+        - link "校园生活" [ref=e24] [cursor=pointer]:
+          - /url: "#"
+  - generic [ref=e25]:
+    - generic [ref=e26]:
+      - list [ref=e27]:
+        - listitem [ref=e28]
+        - listitem [ref=e29]
+        - listitem [ref=e30]
+        - listitem [ref=e31]
+        - listitem [ref=e32]
+      - list [ref=e33]:
+        - listitem [ref=e34]: "1"
+        - listitem [ref=e35]: "2"
+        - listitem [ref=e36]: "3"
+        - listitem [ref=e37]: "4"
+        - listitem [ref=e38]: "5"
+    - generic [ref=e39]:
+      - heading "爱上杭电的50个理由" [level=1] [ref=e41]
+      - paragraph [ref=e43]: 作者：along 浏览数:6956 发表时间：2015-04-14
+      - generic [ref=e44]:
+        - paragraph [ref=e45]
+        - paragraph [ref=e46]
+        - paragraph [ref=e47]
+        - paragraph [ref=e48]: 新生报到刚入大门时，就一眼中意上这里，象牙红的教学楼、清芬袭人的桂花香、亲切的老师、温暖学长学姐……这一切的一切，都让我很是欢喜。今天，小i想跟大家聊聊所知道的关于杭电的50件事情，借此也谢谢母校，让我在最美好的年华里遇见您。
+        - paragraph [ref=e49]
+        - paragraph [ref=e50]
+        - paragraph [ref=e51]: 1.我的大学叫杭州电子科技大学，有着亚洲最宽的校门，很是威武霸气吧！
+        - paragraph [ref=e52]: 2.学校面积很大，值得逛逛的地方也多，亲测从宿舍楼走到校门口要25分钟。
+        - paragraph [ref=e53]: 3.刚入选为第一批浙江省重点建设高校，碉堡了有木有！
+        - paragraph [ref=e54]: 4.是省属高校中唯一国防军工“四证”齐全的高校。
+        - paragraph [ref=e55]: 5.工程学科进入ESI全球前1%。
+        - paragraph [ref=e56]: 6.电子科学与技术、控制科学与工程、计算机科学与技术均是博士学位授权一级学科和省“重中之重”学科，其中2个已进入全国前15%。
+        - paragraph [ref=e57]: 7.在2013—2014年全国高校科技创新竞争力排行榜中，杭电名列第81位，进入百强高校行列。
+        - paragraph [ref=e58]: 8.杭电学子在国际大学生程序设计竞赛、美国数学建模竞赛、大学生“飞思卡尔”智能车竞赛等各类省、国家、国际级赛事中屡获大奖，总体成绩保持省属高校领先地位。
+        - paragraph [ref=e59]: 9.招生工作在全国率先使用人工智能服务，萌萌哒的“杭小电”很亲切是不是！
+        - paragraph [ref=e60]: 10.连续多届毕业生的平均月薪居省内高校第二。
+        - paragraph [ref=e61]
+        - paragraph [ref=e62]
+        - paragraph [ref=e63]
+        - paragraph [ref=e64]
+        - paragraph [ref=e65]
+        - paragraph [ref=e66]: 11.学校“红马甲”志愿者们很是给力，志愿者服务成校园新风尚。
+        - paragraph [ref=e67]: 12.“杭电十景”（下沙校区）确定为：长虹揽月、巨碟邀星；雅湖云影、书海风荷；兰亭春晓、艺苑秋歌；丛鱼听学、三省问天；藤廊寄梦、麦野浮金。大家都知道了吗？
+        - paragraph [ref=e68]: 13.马云曾是杭电的英语老师，杭电也成了他眼中的“父校”。
+        - paragraph [ref=e69]: 14.学校图书馆有12层，去了那么多次图书馆，自习室的空位总是无限接近于零，明明图书馆那么大，明明它还有两个自习室，杭电的学霸真真多！
+        - paragraph [ref=e70]: 15.每当期末考试，6教总是人满满的，没有为什么，冬暖夏凉，气氛好效率高，就是那么简单。
+        - paragraph [ref=e71]: 16.运动会上，大家可都是被杭电的航模水平惊呆了呢。哦，对了，学校的航模团队还获得了科研类全国航天航空模型锦标赛一等奖！
+        - paragraph [ref=e72]: 17.每年公选课选课时间，3教机房也一定是人满为患的，没有提前占座，基本不用想能有一个位置。
+        - paragraph [ref=e73]: 18.选课的时候，大家凭借的不再是网速，而是人品。敢信土豪用4G网分分钟秒杀我们？
+        - paragraph [ref=e74]: 19.教学区全区都有WiFi覆盖，网速刷得了百度百科，看得了教学视频，自从有了学校WiFi，再也不用担心我流量不够用了呢！
+        - paragraph [ref=e75]: 20.忘了说，大学必不可少的一个考试叫大学英语四六级。四级考试凭借高中的知识裸考问题不大，不过六级考试就需要大家用心复习了。
+        - paragraph [ref=e76]
+        - paragraph [ref=e77]
+        - paragraph [ref=e78]
+        - paragraph [ref=e79]
+        - paragraph [ref=e80]
+        - paragraph [ref=e81]
+        - paragraph [ref=e82]: 21.学校体育馆是杭州市第二大体育馆，规模仅次于黄龙体育馆，外型酷似飞碟。
+        - paragraph [ref=e83]: 22.体育馆不仅是学校各大体育赛事的承办地，更是学校开学典礼、毕业典礼、各大晚会及各大经典学科竞赛总决赛的见证地。这里曾是万马篮球队的主场，承办过第23届全国残疾人运动会轮椅篮球赛。
+        - paragraph [ref=e84]: 23.新建了智能快递收发点，取件都是自动的，还没有时间限制，是一项令人感动的为民工程。
+        - paragraph [ref=e85]: 24.学校男女比例据说是2:1，正是因为这样，杭电女生待遇必须好，公主楼、女生节，都是女王地位的不二体现。
+        - paragraph [ref=e86]: 25.说到公主楼，18层，带电梯，很是高大上！
+        - paragraph [ref=e87]: 26.虽然男女比例是2:1，但在校园里看到的妹子很多，因为男生们大部分都在实验室做实验或者在寝室里敲代码打游戏……
+        - paragraph [ref=e88]: 27.不过这也是有好处的，杭电的电子竞技水平在高校里很强的。之前在我们学校举办的lol比赛，估计把不少宅男都引出寝室了。
+        - paragraph [ref=e89]: 28.去年某网出的校花贴，盘点杭州各高校的校花，人家都是人的照片，最后来一张杭电是一地落花。这就让小i很不服气，杭电“甜素纯”可是多多的！
+        - paragraph [ref=e90]: 29.还有，杭电帅哥也是很多的，毕竟基数大。前阵子小i推出了“论杭电暖男的自我修养”，反响可是杠杠的！
+        - paragraph [ref=e91]: 30.周末期间寝室12点门禁，其余时间则是11点，每当晚归时，总会很努力把宿管阿姨喊醒，想想很是对不住……
+        - paragraph [ref=e92]
+        - paragraph [ref=e93]
+        - paragraph [ref=e94]
+        - paragraph [ref=e95]
+        - paragraph [ref=e96]
+        - paragraph [ref=e97]: 31.进出寝室的时候，阿姨都会喊我们刷卡。当然怎么喊取决于阿姨的温柔程度。
+        - paragraph [ref=e98]: 32.宿舍买桶装水，可以用微信下单，还有多少同学不知道哈。
+        - paragraph [ref=e99]: 33.对了，还有微信报修呢！下午两点前报修，两点之后师傅就会过来，便捷高效，真是暖心呢。
+        - paragraph [ref=e100]: 34.寝室移动电信的网都有，但是用移动还是电信开学前的暑假就要考虑起来啦。
+        - paragraph [ref=e101]: 35.学校寝室楼之间也是很有爱的，快熄灯了对着阳台唱歌，对楼还会帮你接歌词呢~
+        - paragraph [ref=e102]: 36.学校有个表白墙，QQ号是2521596110。不要说小i没告诉你哦。
+        - paragraph [ref=e103]: 37.13号宿舍楼，还在墙上火了一把，据说是楼下男寝汉子要约楼上女寝妹子。
+        - paragraph [ref=e104]: 38.表白墙除了接表白的活，也接寻物启示这样的私活，效果貌似确实不错。
+        - paragraph [ref=e105]: 39.谁说工科男不懂浪漫，我一哥们就在31号楼下摆上蜡烛向自己喜欢的女生表白。同学们对这样的喊楼，反响是十分热烈的，整楼围观都有。
+        - paragraph [ref=e106]: 40.寝室热水器空调一应俱全，为了节约用电，热水器自带定时装置，真的是贴心为广大学子省电费呀。
+        - paragraph [ref=e107]
+        - paragraph [ref=e108]
+        - paragraph [ref=e109]
+        - paragraph [ref=e110]
+        - paragraph [ref=e111]
+        - paragraph [ref=e112]: 41.说到寝室，还有一个不得不提的当然是寝室楼下的投币洗衣机了，还在为冬天衣服太厚洗不了，夏天衣服太多不想洗而烦躁吗？备好零钱快去楼下找洗衣机啊！
+        - paragraph [ref=e113]: 42.不得不说，杭州的天气真是磨人。忽冷忽热，防不胜防，所以，在学校，咱也免不了调侃句“众里寻他千百度，你要几度就几度”。
+        - paragraph [ref=e114]: 43.学校餐厅被评为“全国高校百佳食堂”，怪不得饭菜那么合口味，好吃没道理！
+        - paragraph [ref=e115]: 44.美食广新装修了一番再次开业，品种也瞬间多了好多，中式韩式、火锅烧烤、汤品炒饭……味道还不错哦。
+        - paragraph [ref=e116]: 45.离杭电生活区最近的就是弗雷德广场，吃饭逛街看电影，你能想到的几乎都有。小i就时不时约上三两好友，逛个街吃个饭，闲暇之时，好不惬意。
+        - paragraph [ref=e117]: 46.忘了说，学校每个学期都有阳光长跑，速度有规定范围，次数有强制要求，没达到体育就会不及格，小i有点累觉不爱。
+        - paragraph [ref=e118]: 47.每学年都要进行体测，所以开学之后经常可以看见一大批人在操场上跑步练习。
+        - paragraph [ref=e119]: 48.要说晚上校园最热闹的地方，学生活动中心当属其一。轮滑社、街舞社的同学们，你们带动了整个学活的氛围哦。
+        - paragraph [ref=e120]: 49.每年的校园十佳歌手比赛都备受期待，绝对值得一看，当然票也很是抢手！
+        - paragraph [ref=e121]: 50.对了，还有一件事，地铁口就在我们学校门口，回家出游完全不是事儿。地铁口近，就是任性。
+        - paragraph [ref=e122]
+        - paragraph [ref=e123]
+        - paragraph [ref=e124]
+        - paragraph [ref=e125]: （文/沈嘉炜 沈佳飞 夏欣怡 孙伟卿）
+        - paragraph [ref=e126]
+        - paragraph [ref=e127]
+        - paragraph [ref=e128]
+        - paragraph [ref=e129]
+  - generic [ref=e130]:
+    - generic:
+      - generic [ref=e131]:
+        - img [ref=e132]
+        - paragraph [ref=e133]:
+          - text: 咨询电话：0571-86915007 / 地址：杭州下沙高教园区二号大街 / 邮编：310018 Email:zhaosheng@hdu.edu.cn
+          - text: 举报信箱：xfjb@hdu.edu.cn / 举报电话：86915055 / 举报地址：杭州电子科技大学行政楼7楼纪检监察室
+      - generic [ref=e134]:
+        - generic [ref=e135]:
+          - link [ref=e136] [cursor=pointer]:
+            - /url: http://t.qq.com/hdu_zs
+            - img [ref=e137]
+          - img [ref=e138]
+          - img [ref=e139]
+        - generic:
+          - list:
+            - listitem [ref=e140]:
+              - link "学校官方微信" [ref=e141] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e142]:
+              - link "招生官方微信" [ref=e143] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e144]:
+              - link "腾讯微博在线" [ref=e145] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e146]:
+              - link "手机版招生网" [ref=e147] [cursor=pointer]:
+                - /url: "#"
+    - generic [ref=e148]: Copyright © Hangzhou Dianzi University Admissions office.All Rights Reserved

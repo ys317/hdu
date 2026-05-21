@@ -1,10 +1,118 @@
 /**app.wxss**/
-.container {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  padding: 200rpx 0;
+page {
+  background: linear-gradient(180deg, #f6fbff 0%, #eef5fc 100%);
+  color: #0b1b36;
+}
+
+view, text, image, swiper, scroll-view, button, map {
   box-sizing: border-box;
-} 
+}
+
+image {
+  display: block;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+.tech-shell {
+  position: relative;
+  overflow: hidden;
+}
+
+.tech-grid-overlay {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(135deg, rgba(14, 119, 255, 0.08), transparent 42%),
+    repeating-linear-gradient(90deg, rgba(14, 119, 255, 0.06) 0, rgba(14, 119, 255, 0.06) 1rpx, transparent 1rpx, transparent 72rpx),
+    repeating-linear-gradient(180deg, rgba(14, 119, 255, 0.04) 0, rgba(14, 119, 255, 0.04) 1rpx, transparent 1rpx, transparent 72rpx);
+  opacity: 0.45;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.tech-panel {
+  position: relative;
+  background: rgba(255, 255, 255, 0.78);
+  border: 1rpx solid rgba(19, 124, 255, 0.1);
+  box-shadow: 0 18rpx 42rpx rgba(16, 42, 82, 0.08);
+  backdrop-filter: blur(16px);
+}
+
+.tech-chip {
+  display: inline-block;
+  padding: 8rpx 16rpx;
+  border-radius: 999rpx;
+  background: linear-gradient(135deg, rgba(14, 119, 255, 0.14), rgba(32, 213, 255, 0.12));
+  border: 1rpx solid rgba(14, 119, 255, 0.14);
+  color: #0d3d82;
+  font-size: 22rpx;
+  letter-spacing: 1rpx;
+}
+
+.tech-accent {
+  height: 4rpx;
+  border-radius: 999rpx;
+  background: linear-gradient(90deg, rgba(32, 213, 255, 0), #20d5ff 30%, #0c8cff 70%, rgba(32, 213, 255, 0));
+  box-shadow: 0 0 18rpx rgba(12, 140, 255, 0.34);
+}
+
+.tech-rise {
+  animation: tech-rise 0.72s ease both;
+}
+
+.tech-pulse {
+  animation: tech-pulse 2.8s ease-in-out infinite;
+}
+
+.tech-sweep {
+  animation: tech-sweep 3.8s linear infinite;
+}
+
+.tech-float {
+  animation: tech-float 4.8s ease-in-out infinite;
+}
+
+@keyframes tech-rise {
+  from {
+    opacity: 0;
+    transform: translateY(18rpx) scale(0.985);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes tech-pulse {
+  0%, 100% {
+    opacity: 0.5;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.08);
+  }
+}
+
+@keyframes tech-sweep {
+  0% {
+    transform: translateX(-120%);
+  }
+  100% {
+    transform: translateX(160%);
+  }
+}
+
+@keyframes tech-float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8rpx);
+  }
+}

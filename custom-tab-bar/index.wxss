@@ -3,14 +3,26 @@
   bottom: 0;
   left: 0;
   right: 0;
-  height: 100rpx;
-  background: #ffffff;
+  height: 118rpx;
+  background: rgba(248, 251, 255, 0.9);
   display: flex;
   justify-content: space-around;
   align-items: center;
-  box-shadow: 0 -2rpx 10rpx rgba(0, 0, 0, 0.08);
-  padding-bottom: env(safe-area-inset-bottom);
+  box-shadow: 0 -18rpx 38rpx rgba(16, 42, 82, 0.1);
+  border-top: 1rpx solid rgba(19, 124, 255, 0.1);
+  padding-bottom: calc(env(safe-area-inset-bottom) + 8rpx);
   z-index: 999;
+  backdrop-filter: blur(18px);
+}
+
+.tab-bar-line {
+  position: absolute;
+  top: 0;
+  left: 10%;
+  right: 10%;
+  height: 2rpx;
+  background: linear-gradient(90deg, transparent, rgba(32, 213, 255, 0.92), rgba(12, 140, 255, 0.92), transparent);
+  box-shadow: 0 0 18rpx rgba(12, 140, 255, 0.35);
 }
 
 .tab-item {
@@ -20,22 +32,61 @@
   align-items: center;
   justify-content: center;
   height: 100%;
+  transition: all 0.24s ease;
+}
+
+.tab-item.selected {
+  transform: translateY(-3rpx);
+}
+
+.icon-shell {
+  position: relative;
+  width: 68rpx;
+  height: 58rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20rpx;
+  border: 1rpx solid transparent;
+  transition: all 0.24s ease;
+}
+
+.tab-item.selected .icon-shell {
+  background: linear-gradient(180deg, rgba(12, 140, 255, 0.15), rgba(32, 213, 255, 0.08));
+  border-color: rgba(12, 140, 255, 0.18);
+  box-shadow: 0 0 26rpx rgba(12, 140, 255, 0.13);
+}
+
+.icon-ping {
+  position: absolute;
+  width: 42rpx;
+  height: 42rpx;
+  border-radius: 999rpx;
+  border: 1rpx solid rgba(32, 213, 255, 0.34);
+  opacity: 0;
+}
+
+.tab-item.selected .icon-ping {
+  opacity: 1;
+  animation: tech-pulse 2s ease-in-out infinite;
 }
 
 .icon {
-  width: 48rpx;
-  height: 48rpx;
+  position: relative;
+  z-index: 2;
+  width: 40rpx;
+  height: 40rpx;
 }
 
 .text {
   font-size: 22rpx;
-  color: #999999;
-  margin-top: 4rpx;
+  color: #72829a;
+  margin-top: 2rpx;
 }
 
 .text.active {
-  color: #1e3a8a;
-  font-weight: bold;
+  color: #0c8cff;
+  font-weight: 700;
 }
 
 .tab-item:active {

@@ -1,43 +1,53 @@
-<view class="map-container">
-  <!-- 地图组件 -->
-  <map 
-    id="campusMap"
-    longitude="{{longitude}}" 
-    latitude="{{latitude}}"
-    scale="16"
-    markers="{{markers}}"
-    bindmarkertap="onMarkerTap"
-    show-location
-    class="campus-map">
-  </map>
+<view class="map-container tech-shell">
+  <view class="tech-grid-overlay"></view>
 
-  <!-- 地标分类切换 -->
-  <view class="map-tabs">
-    <view class="map-tab {{currentCategory===item.id?'active':''}}" 
-          wx:for="{{categories}}" wx:key="id"
-          bindtap="switchCategory" data-id="{{item.id}}">
-      {{item.name}}
+  <view class="map-header tech-rise">
+    <view class="map-kicker tech-chip">STATIC CAMPUS MAP</view>
+    <text class="page-title">杭电校园地图</text>
+    <text class="page-subtitle">校园平面导览图已作为本地静态资源加载，点击地图可全屏查看</text>
+  </view>
+
+  <view class="map-frame tech-panel tech-rise" style="animation-delay: 120ms;" bindtap="previewMap">
+    <view class="map-frame-scan tech-sweep"></view>
+    <image class="static-map" src="{{mapImage}}" mode="widthFix" />
+  </view>
+
+  <view class="map-tips tech-panel tech-rise" style="animation-delay: 220ms;">
+    <view class="tip-item">
+      <text class="tip-dot"></text>
+      <text class="tip-text">地图已随小程序页面自动加载，无需等待定位服务</text>
+    </view>
+    <view class="tip-item">
+      <text class="tip-dot"></text>
+      <text class="tip-text">点击地图后可双指缩放查看细节</text>
     </view>
   </view>
 
-  <!-- 地标卡片列表 -->
-  <scroll-view scroll-y class="location-list">
-    <view class="location-card" wx:for="{{filteredLocations}}" wx:key="id"
-          bindtap="moveToMarker" data-marker="{{item}}">
-      <view class="card-left">
-        <image src="/images/marker.png" class="loc-pin-icon"/>
-        <view class="loc-info">
-          <text class="loc-name">{{item.title}}</text>
-          <text class="loc-desc">{{item.desc}}</text>
-        </view>
-      </view>
-      <view class="card-right">
-        <view class="focus-btn">
-          <text>导航</text>
-        </view>
-      </view>
+  <view class="nav-section tech-rise" style="animation-delay: 300ms;">
+    <view class="nav-section-title">
+      <text class="section-title">地图导航</text>
+      <text class="section-subtitle">点击建筑按钮，打开目标地点</text>
     </view>
-    <!-- 空白底部占位，避免被自定义Tabbar挡住 -->
-    <view class="bottom-placeholder"></view>
-  </scroll-view>
+
+    <view class="nav-grid">
+      <button
+        wx:for="{{navTargets}}"
+        wx:for-item="item"
+        wx:for-index="index"
+        wx:key="id"
+        class="nav-btn tech-rise"
+        plain="true"
+        style="animation-delay: {{index * 70}}ms;"
+        bindtap="goToBaiduNavigation"
+        data-name="{{item.name}}"
+        data-nav-name="{{item.navName}}"
+        data-desc="{{item.desc}}"
+        data-lat="{{item.lat}}"
+        data-lng="{{item.lng}}"
+      >
+        <view class="nav-btn-name">{{item.name}}</view>
+        <view class="nav-btn-desc">{{item.desc}}</view>
+      </button>
+    </view>
+  </view>
 </view>

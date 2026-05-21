@@ -1,0 +1,13 @@
+[     962ms] TypeError: el.on is not a function
+    at Unslider._.init (https://zhaosheng.hdu.edu.cn/public/js/unslider.js:126:8)
+    at HTMLDivElement.<anonymous> (https://zhaosheng.hdu.edu.cn/public/js/unslider.js:243:31)
+    at jQuery.each (https://zhaosheng.hdu.edu.cn/public/js/jquery-1.6.4.js:660:20)
+    at init.each (https://zhaosheng.hdu.edu.cn/public/js/jquery-1.6.4.js:274:17)
+    at $.fn.unslider (https://zhaosheng.hdu.edu.cn/public/js/unslider.js:239:15)
+    at HTMLDocument.<anonymous> (https://zhaosheng.hdu.edu.cn/art.php?aid=689:347:14)
+    at Object.resolveWith (https://zhaosheng.hdu.edu.cn/public/js/jquery-1.6.4.js:1016:27)
+    at jQuery.ready (https://zhaosheng.hdu.edu.cn/public/js/jquery-1.6.4.js:437:14)
+    at HTMLDocument.DOMContentLoaded (https://zhaosheng.hdu.edu.cn/public/js/jquery-1.6.4.js:923:10)
+[     967ms] TypeError: el.on is not a function
+    at https://zhaosheng.hdu.edu.cn/public/js/unslider.js:78:10
+[    1246ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ https://zhaosheng.hdu.edu.cn/favicon.ico:0
